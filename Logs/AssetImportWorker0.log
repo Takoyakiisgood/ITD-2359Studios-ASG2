@@ -265,3 +265,4 @@ Received Import Request.
 Start importing Assets/Materials/basket.mat using Guid(39706bab52e9c0f42a199488c0b2b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532e700c2bac2815f3a14bcf79e99562') in 0.021358 seconds 
   Import took 0.046645 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
