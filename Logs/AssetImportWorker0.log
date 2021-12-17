@@ -168,3 +168,4 @@ Received Import Request.
 Start importing Assets/Scenes/Estther (Forest).unity using Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd43fc30134915bfe4bd831abb453afa') in 0.009495 seconds 
   Import took 0.021187 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
