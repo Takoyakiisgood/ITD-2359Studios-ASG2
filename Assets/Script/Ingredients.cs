@@ -10,7 +10,7 @@ public class Ingredients : MonoBehaviour
     {
         Debug.Log(other.gameObject.tag + " is inside the basket");
         //Check if the Object inside is a food if not do something
-        if (other.gameObject.tag == "Food")
+        if (other.gameObject.tag == "Fish")
         {
 
 
