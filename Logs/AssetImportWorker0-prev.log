@@ -15,12 +15,12 @@ C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62866
+65061
 Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.57 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.75 ms.
+Refreshing native plugins compatible for Editor in 110.11 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 2.36 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2/Assets
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001091 seconds.
+Registered in 0.001002 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.17 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 51.67 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
+- Completed reload, in  3.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1489ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (3851ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (417ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006755 seconds.
+Registered in 0.009394 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.33 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 51.49 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
+- Completed reload, in  1.200 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1563ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1369ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (717ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (516ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (403ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2920 Unused Serialized files (Serialized files now loaded: 0)
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2921 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 127.3 MB.
 System memory in use after: 127.4 MB.
 
-Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 3331.
-Total: 3.947600 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.177200 ms MarkObjects: 3.263000 ms  DeleteObjects: 0.200300 ms)
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 3332.
+Total: 4.018000 ms (FindLiveObjects: 0.280200 ms CreateObjectMapping: 0.141900 ms MarkObjects: 3.367400 ms  DeleteObjects: 0.226900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,387 +131,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Script/basket.cs
-  artifactKey: Guid(9a9103a0b93a9a840b83e17054bb8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/basket.cs using Guid(9a9103a0b93a9a840b83e17054bb8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e855853fa2c39e0a413b5578174c3598') in 0.026254 seconds 
-  Import took 0.030576 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009773 seconds 
+  Import took 0.014643 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.693827 seconds.
-  path: Assets/Script
-  artifactKey: Guid(dffe65281b0fb1343ad08244eec5c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(dffe65281b0fb1343ad08244eec5c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba40c8776460630038cdc9b123167f6') in 0.008027 seconds 
-  Import took 0.013353 seconds .
+  Time since last request: 3.352651 seconds.
+  path: Assets/Imported From Unity/Animals
+  artifactKey: Guid(d50ca3c33186c3b478037c374cf5a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals using Guid(d50ca3c33186c3b478037c374cf5a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9974c9eea9e43e895b7d4b653ecfa755') in 0.007607 seconds 
+  Import took 0.013004 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.831715 seconds.
-  path: Assets/Script/Ingredients.cs
-  artifactKey: Guid(8e7b530ac38c0c84fa77c06a0da3c969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Ingredients.cs using Guid(8e7b530ac38c0c84fa77c06a0da3c969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc398958113eb76297eb0adca549ef0') in 0.007563 seconds 
-  Import took 0.011758 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006268 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1055ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2828 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.4 MB.
-System memory in use after: 121.5 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3335.
-Total: 3.154500 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.667700 ms  DeleteObjects: 0.116900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 245.093359 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc66275d5692294f3427c0a947c95bf3') in 0.018995 seconds 
-  Import took 0.023719 seconds .
+  Time since last request: 423.443532 seconds.
+  path: Assets/Humpback whale/humpback_whale_model23.FBX
+  artifactKey: Guid(087a2ac1c75bbc34aa1d66d7766c1d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humpback whale/humpback_whale_model23.FBX using Guid(087a2ac1c75bbc34aa1d66d7766c1d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b48715418bd5348c78d6be63500dc') in 0.305862 seconds 
+  Import took 0.311127 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.293035 seconds.
-  path: Assets/Prefab/SmallFish.prefab
-  artifactKey: Guid(a90a06ada59de2c4388fc9dda816a3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SmallFish.prefab using Guid(a90a06ada59de2c4388fc9dda816a3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27473026af2b60f112a65aff40f8ad0d') in 0.083137 seconds 
-  Import took 0.087305 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Humpback whale/humpback_whale_model_baked_animation.FBX
+  artifactKey: Guid(035a8130f4329504aaa80f75dc72628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humpback whale/humpback_whale_model_baked_animation.FBX using Guid(035a8130f4329504aaa80f75dc72628d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900c6854ece8fdaf8620ee800971ad0') in 0.048837 seconds 
+  Import took 0.054404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.414816 seconds.
-  path: Assets/Prefab/PenguinBowl.prefab
-  artifactKey: Guid(3556bef820a14a845a41309bb8d543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PenguinBowl.prefab using Guid(3556bef820a14a845a41309bb8d543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdffb3031ee73240ac08bee3204b770') in 0.044979 seconds 
-  Import took 0.049012 seconds .
+  Time since last request: 11.864916 seconds.
+  path: Assets/Imported From Unity/Animals/Fox/Prefabs
+  artifactKey: Guid(5111af2f92f2ed94dbebf7e19b2950f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Fox/Prefabs using Guid(5111af2f92f2ed94dbebf7e19b2950f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014c69ffabe65c3c1a9bfb762ed8a016') in 0.009127 seconds 
+  Import took 0.015328 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2900.663671 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/sample Scene
-  artifactKey: Guid(aef111c22ad843145a320b4fb746df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/sample Scene using Guid(aef111c22ad843145a320b4fb746df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dbc6dda6400e71d0c1629b40501ad7') in 0.016948 seconds 
-  Import took 0.021449 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009912 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.41 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1476ms)
-		BeginReloadAssembly (217ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (102ms)
-		EndReloadAssembly (1184ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (478ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2828 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.8 MB.
-System memory in use after: 124.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3345.
-Total: 5.840600 ms (FindLiveObjects: 0.713600 ms CreateObjectMapping: 0.248500 ms MarkObjects: 4.684000 ms  DeleteObjects: 0.191100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12155.314611 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/bowl02 1.fbx
-  artifactKey: Guid(83d87320f3260534da47a1df6d146840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/bowl02 1.fbx using Guid(83d87320f3260534da47a1df6d146840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c5445ad0811208a0761e1e1b0eeb9') in 0.304749 seconds 
-  Import took 0.382474 seconds .
+  Time since last request: 0.533801 seconds.
+  path: Assets/Imported From Unity/Animals/Fox/Prefabs/Fox.prefab
+  artifactKey: Guid(9fedecbd1aa68924b816f15cb97e611a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Fox/Prefabs/Fox.prefab using Guid(9fedecbd1aa68924b816f15cb97e611a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c14d5e393d135afc3a6e1bf60264045') in 0.396084 seconds 
+  Import took 0.406349 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 126.432190 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Textures
-  artifactKey: Guid(a201716541becb548b878cf276ab1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Textures using Guid(a201716541becb548b878cf276ab1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881f7ee65885e0ab467f6e917745cf9f') in 0.009989 seconds 
-  Import took 0.016464 seconds .
+  Time since last request: 284.513578 seconds.
+  path: Assets/Imported From Unity/Animals/Penguin/Penguin.prefab
+  artifactKey: Guid(28f113bc1593119448bfebc93373c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Penguin/Penguin.prefab using Guid(28f113bc1593119448bfebc93373c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f30e45fa6a2384fdb4383d002f20e9') in 0.098620 seconds 
+  Import took 0.103850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 94.942269 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials
-  artifactKey: Guid(54cc19b4e5238924e90845e2d07c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials using Guid(54cc19b4e5238924e90845e2d07c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d4114018e8b4ef36235d0cc9b7e1b') in 0.015657 seconds 
-  Import took 0.024744 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/Imported From Unity/Animals/Penguin/PenguinFBX.fbx
+  artifactKey: Guid(8d64aa435677a064ca9f3accc6aa6c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Penguin/PenguinFBX.fbx using Guid(8d64aa435677a064ca9f3accc6aa6c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae91f6bb48810f72e38ecf98b00c7ac') in 0.039242 seconds 
+  Import took 0.043297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.745821 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl01.mat
-  artifactKey: Guid(58cdf033f1f28a945a432478f543aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl01.mat using Guid(58cdf033f1f28a945a432478f543aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5941927a3ae175a17fa011d778b8c37') in 0.098017 seconds 
-  Import took 0.105175 seconds .
+  Time since last request: 591.786573 seconds.
+  path: Assets/Imported From Unity/Animals/Deer.fbx
+  artifactKey: Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer.fbx using Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71752ffdb2a8ddb39380d8fdbf701ba3') in 0.071818 seconds 
+  Import took 0.076421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug02.mat
-  artifactKey: Guid(51dd31446ec8d1e48b28bd161e5d9f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug02.mat using Guid(51dd31446ec8d1e48b28bd161e5d9f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f91b2bc750f0debd4986429a2007942') in 0.066281 seconds 
-  Import took 0.073157 seconds .
+  Time since last request: 63.838421 seconds.
+  path: Assets/Imported From Unity/Animals/Deer.fbx
+  artifactKey: Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer.fbx using Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dead94db4a989f9745fce890a8ac87') in 0.098089 seconds 
+  Import took 0.103459 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000627 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl03.mat
-  artifactKey: Guid(31ba592a930f60f44be0e6fb87c51e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl03.mat using Guid(31ba592a930f60f44be0e6fb87c51e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dcba50fcbcf7440272602ba8283eae') in 0.044884 seconds 
-  Import took 0.052171 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Imported From Unity/Animals/doe-body.png
+  artifactKey: Guid(645031b6ea629ad46bf4f3377d364b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/doe-body.png using Guid(645031b6ea629ad46bf4f3377d364b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0021b402a60194cddbdfec2516cb11d4') in 0.030474 seconds 
+  Import took 0.035451 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate01.mat
-  artifactKey: Guid(a8713dc11dd3b4049b3c7828cf6d5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate01.mat using Guid(a8713dc11dd3b4049b3c7828cf6d5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955f6050522faae99e1329e73e4e528') in 0.076201 seconds 
-  Import took 0.083341 seconds .
+  Time since last request: 30.409828 seconds.
+  path: Assets/Imported From Unity/Animals/Deer.fbx
+  artifactKey: Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer.fbx using Guid(542c5e26a7f7d6e49bf194cfcfa3faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1da8c399007f760883fab147283ce1') in 0.105337 seconds 
+  Import took 0.110227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug03.mat
-  artifactKey: Guid(c94f7b7a8f544114ab98802e8b4b23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug03.mat using Guid(c94f7b7a8f544114ab98802e8b4b23a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c6625ede4374215ce2212025154913') in 0.060374 seconds 
-  Import took 0.066703 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imported From Unity/Animals/doe-head.png
+  artifactKey: Guid(837769a1691db9646ba3cb1f1b600460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/doe-head.png using Guid(837769a1691db9646ba3cb1f1b600460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e041500177e7bf7e1adeb60f1dbf1d7c') in 0.014091 seconds 
+  Import took 0.018806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate03.mat
-  artifactKey: Guid(aef25ea260dab4b4eb3a8d474748355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate03.mat using Guid(aef25ea260dab4b4eb3a8d474748355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cd6fd9043aed33c87fe51c1df45fb8') in 0.042173 seconds 
-  Import took 0.049404 seconds .
+  Time since last request: 9.127796 seconds.
+  path: Assets/Imported From Unity/Animals/deer
+  artifactKey: Guid(ed2208e3ccc37df45869cf3b6712955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/deer using Guid(ed2208e3ccc37df45869cf3b6712955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942d97a943acd5515ddd4f8b0d92c8ae') in 0.007504 seconds 
+  Import took 0.012142 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug01.mat
-  artifactKey: Guid(4aedf822205248740998f76b3366dfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/mug01.mat using Guid(4aedf822205248740998f76b3366dfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab03fd49a81b520e9fca05eb37427480') in 0.074439 seconds 
-  Import took 0.083744 seconds .
+  Time since last request: 80.080489 seconds.
+  path: Assets/Imported From Unity/Animals/Unconfirmed 446127.crdownload
+  artifactKey: Guid(1bd1961ce3e400d4b8bbc9ea211ce4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Unconfirmed 446127.crdownload using Guid(1bd1961ce3e400d4b8bbc9ea211ce4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.020806 seconds  code(4) message(Build asset version error: assets/imported from unity/animals/unconfirmed 446127.crdownload in SourceAssetDB has modification time of '2021-12-17T07:24:40.3687213Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff62fdf7c1c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff62fe002b9 (Unity) StackWalker::ShowCallstack
+0x00007ff6313245bc (Unity) GetStacktrace
+0x00007ff631507a27 (Unity) GetAssetHashAndValidate
+0x00007ff631502bf3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff631500b62 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6314daf7d (Unity) CreateAssetVersionBuilder
+0x00007ff6314e1c7d (Unity) ImportToObjects
+0x00007ff6314e0a98 (Unity) ImportAsset
+0x00007ff6314427f8 (Unity) AssetImportWorker::Import
+0x00007ff631495b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff63153a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63153c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63153fb4e (Unity) asio::io_service::run
+0x00007ff6314c29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6314c2a40 (Unity) RunAssetImporterV2
+0x00007ff630986616 (Unity) Application::InitializeProject
+0x00007ff631331b22 (Unity) WinMain
+0x00007ff6331892b6 (Unity) __scrt_common_main_seh
+0x00007ff928f254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff92ab8485b (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/imported from unity/animals/unconfirmed 446127.crdownload in SourceAssetDB has modification time of '2021-12-17T07:24:40.3687213Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff62fdf7c1c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff62fe002b9 (Unity) StackWalker::ShowCallstack
+0x00007ff6313245bc (Unity) GetStacktrace
+0x00007ff631507a27 (Unity) GetAssetHashAndValidate
+0x00007ff631502bf3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff631500b62 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6314daf7d (Unity) CreateAssetVersionBuilder
+0x00007ff6314e1c7d (Unity) ImportToObjects
+0x00007ff6314e0a98 (Unity) ImportAsset
+0x00007ff6314427f8 (Unity) AssetImportWorker::Import
+0x00007ff631495b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff63153a262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63153c3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63153fb4e (Unity) asio::io_service::run
+0x00007ff6314c29eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6314c2a40 (Unity) RunAssetImporterV2
+0x00007ff630986616 (Unity) Application::InitializeProject
+0x00007ff631331b22 (Unity) WinMain
+0x00007ff6331892b6 (Unity) __scrt_common_main_seh
+0x00007ff928f254e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff92ab8485b (ntdll) RtlUserThreadStart
+
+  Import took 1.024706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate02.mat
-  artifactKey: Guid(978bbcf9abdfc404fa538fba9a668ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/plate02.mat using Guid(978bbcf9abdfc404fa538fba9a668ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fda4d461e906c801e286f084c802d6') in 0.032185 seconds 
-  Import took 0.038861 seconds .
+  Time since last request: 9.243509 seconds.
+  path: Assets/Imported From Unity/Animals/Deer
+  artifactKey: Guid(ed2208e3ccc37df45869cf3b6712955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer using Guid(ed2208e3ccc37df45869cf3b6712955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee866ddccd9f531ab0bb27f6d36cdaf4') in 0.002329 seconds 
+  Import took 0.007146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.882061 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl02 1.mat
-  artifactKey: Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl02 1.mat using Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81adadfd0ff50cafc519e309a2d550bf') in 0.079975 seconds 
-  Import took 0.085451 seconds .
+  Time since last request: 86.929765 seconds.
+  path: Assets/Imported From Unity/Animals/New folder
+  artifactKey: Guid(3362c0955774c784bbb2e28d278fb338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/New folder using Guid(3362c0955774c784bbb2e28d278fb338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecba54a52b578d96a0c0f744a173e015') in 0.008823 seconds 
+  Import took 0.013583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl02.mat
-  artifactKey: Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/bowl02.mat using Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1023dcda8cc50d70695d0cce94f5a08e') in 0.054624 seconds 
-  Import took 0.059324 seconds .
+  Time since last request: 3.633953 seconds.
+  path: Assets/Imported From Unity/Animals/Deer/deer.fbx
+  artifactKey: Guid(69ad888649db9fa458ff7ea504ddcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer/deer.fbx using Guid(69ad888649db9fa458ff7ea504ddcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def027ac6de53d71087aaf114e5ddf18') in 0.065078 seconds 
+  Import took 0.077027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.954917 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale.mat
-  artifactKey: Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale.mat using Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b5587d8680633b7e31f44bfc118e32') in 0.019916 seconds 
-  Import took 0.025302 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/Imported From Unity/Animals/Deer/doe-body.png
+  artifactKey: Guid(6fb16ae5ec2ccdf43af8bf531ff4982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer/doe-body.png using Guid(6fb16ae5ec2ccdf43af8bf531ff4982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02bfe6a87722f2adfa17fe41334a0d3') in 0.015561 seconds 
+  Import took 0.019885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.456826 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/penguin.mat
-  artifactKey: Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/penguin.mat using Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644cdbbd1cda098484b38c62b73f9310') in 0.016703 seconds 
-  Import took 0.021670 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/Imported From Unity/Animals/Deer/doe-head.png
+  artifactKey: Guid(553a41eddb839174e8155705ff97a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer/doe-head.png using Guid(553a41eddb839174e8155705ff97a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bface68c2d0e6793eb2d48d6a20aeebe') in 0.013876 seconds 
+  Import took 0.018898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.601990 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale 1.mat
-  artifactKey: Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale 1.mat using Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0f7b3678f492979edb8a9ad8be9453') in 0.022856 seconds 
-  Import took 0.028387 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imported From Unity/Animals/Deer/deer.obj
+  artifactKey: Guid(aeab931cc513d3b4aafa221e8767cfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Deer/deer.obj using Guid(aeab931cc513d3b4aafa221e8767cfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4d56621a75e69eb17687e8ac86fb71') in 0.051751 seconds 
+  Import took 0.056308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale.mat
-  artifactKey: Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/whale.mat using Guid(f7aed8f8a0c9f6b41822bfb1466484da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a93e0c25ed223e6d8f0ce39428e71') in 0.018646 seconds 
-  Import took 0.024053 seconds .
+  Time since last request: 41.196998 seconds.
+  path: Assets/Imported From Unity/Animals/Realistic Fox
+  artifactKey: Guid(cd8fcd9185712ff448bd1de4a1a8aef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Realistic Fox using Guid(cd8fcd9185712ff448bd1de4a1a8aef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70648609c30f904e2cea93d0a8b92cba') in 0.007377 seconds 
+  Import took 0.012857 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.583458 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox.mat
-  artifactKey: Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox.mat using Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e48ddf86f02441f54e4ac1c5444d96') in 0.021937 seconds 
-  Import took 0.027076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.245057 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox 1.mat
-  artifactKey: Guid(5d4a7eaeb3a45fc4185182392b58b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox 1.mat using Guid(5d4a7eaeb3a45fc4185182392b58b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3016e5bd67675a821a082396a0fceb4') in 0.046440 seconds 
-  Import took 0.052570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox.mat
-  artifactKey: Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/fox.mat using Guid(87ebe2e033be7d244b533d37f83aff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56612844b20f0a2ff8c223d7cbc733bd') in 0.021324 seconds 
-  Import took 0.025954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.175451 seconds.
-  path: Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/deer.mat
-  artifactKey: Guid(5d4a7eaeb3a45fc4185182392b58b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Mugs, Bowls and Plates/Models/Materials/deer.mat using Guid(5d4a7eaeb3a45fc4185182392b58b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58bd70a516cf1f03347d4f268df7cf') in 0.023222 seconds 
-  Import took 0.028829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.422173 seconds.
-  path: Assets/Prefab/PenguinBowl.prefab
-  artifactKey: Guid(3556bef820a14a845a41309bb8d543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PenguinBowl.prefab using Guid(3556bef820a14a845a41309bb8d543fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9e149f5a6f9fb69bd20d080d6b9b8f') in 0.048077 seconds 
-  Import took 0.055526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.105501 seconds.
-  path: Assets/Prefab/DeerBowl.prefab
-  artifactKey: Guid(62be5df5394c22d42b17f74efd836b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/DeerBowl.prefab using Guid(62be5df5394c22d42b17f74efd836b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f4878d575229ad61fc1a101f7d1907') in 0.041869 seconds 
-  Import took 0.046833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.384880 seconds.
-  path: Assets/Prefab/FoxBowl.prefab
-  artifactKey: Guid(0c5f12974c9ece84db63a0c7a6ae2bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/FoxBowl.prefab using Guid(0c5f12974c9ece84db63a0c7a6ae2bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb179041c8e581d1b06861a6ed2fa87d') in 0.017240 seconds 
-  Import took 0.022068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.091916 seconds.
-  path: Assets/Prefab/WhaleBowl.prefab
-  artifactKey: Guid(c54139f73e966ac43b66714b0a244850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/WhaleBowl.prefab using Guid(c54139f73e966ac43b66714b0a244850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b784117b614e73d4ea0836a27c36492d') in 0.019674 seconds 
-  Import took 0.023973 seconds .
+  Time since last request: 121.942405 seconds.
+  path: Assets/Imported From Unity/Animals/Realistic Fox/FOX(obj)+textures.rar
+  artifactKey: Guid(b65e249304b349b458fcb543ea8d5794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Animals/Realistic Fox/FOX(obj)+textures.rar using Guid(b65e249304b349b458fcb543ea8d5794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2f389465213eaeb1769895267dc33') in 0.009754 seconds 
+  Import took 0.017807 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
