@@ -17,12 +17,21 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 63050
 Successfully changed project path to: D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
 D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 60.37 ms, found 17 plugins.
 Preloading 1 native plugins for Editor in 0.85 ms.
+=======
+58237
+Successfully changed project path to: D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
+D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.50 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 58237
 Successfully changed project path to: D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
@@ -55,6 +64,7 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBl
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -84,6 +94,8 @@ Domain Reload Profiling:
 		BeginReloadAssembly (42ms)
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -97,6 +109,9 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1405ms)
 		BeginReloadAssembly (42ms)
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -105,8 +120,13 @@ Domain Reload Profiling:
 			CreateAndSetChildDomain (1ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		EndReloadAssembly (359ms)
 			LoadAssemblies (37ms)
+=======
+		EndReloadAssembly (358ms)
+			LoadAssemblies (40ms)
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 		EndReloadAssembly (358ms)
 			LoadAssemblies (40ms)
@@ -121,7 +141,11 @@ Domain Reload Profiling:
 			RebuildScriptCaches (26ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			SetupLoadedEditorAssemblies (152ms)
+=======
+			SetupLoadedEditorAssemblies (153ms)
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 			SetupLoadedEditorAssemblies (153ms)
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -135,8 +159,13 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (14ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				ProcessInitializeOnLoadAttributes (60ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
+=======
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 				ProcessInitializeOnLoadAttributes (62ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
@@ -153,6 +182,7 @@ Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.007332 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -166,6 +196,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 Registered in 0.004012 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -177,6 +209,9 @@ Domain Reload Profiling:
 	ReloadAssembly (1150ms)
 		BeginReloadAssembly (115ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -184,6 +219,7 @@ Domain Reload Profiling:
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (16ms)
@@ -205,11 +241,20 @@ Domain Reload Profiling:
 			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 			SetupTypeCache (262ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (48ms)
 			SetupLoadedEditorAssemblies (496ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -219,9 +264,15 @@ Domain Reload Profiling:
 				RefreshPlugins (51ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (82ms)
 				ProcessInitializeOnLoadAttributes (322ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
+=======
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 				BeforeProcessingInitializeOnLoad (80ms)
 				ProcessInitializeOnLoadAttributes (350ms)
@@ -242,6 +293,7 @@ Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.02 ms, found 17 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 2959 Unused Serialized files (Serialized files now loaded: 0)
@@ -253,6 +305,8 @@ Total: 3.541500 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.172100 m
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 Refreshing native plugins compatible for Editor in 0.87 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 2921 Unused Serialized files (Serialized files now loaded: 0)
@@ -262,6 +316,9 @@ System memory in use after: 126.0 MB.
 Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 3331.
 Total: 3.259400 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.130400 ms MarkObjects: 2.695700 ms  DeleteObjects: 0.159700 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -280,11 +337,14 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   path: Assets/Scenes/TutorialScene.unity
   artifactKey: Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/TutorialScene.unity using Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6e1b15a3ed6ad886b3c51bfe7777a5') in 0.012268 seconds 
   Import took 0.016025 seconds .
 =======
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
   path: Assets/UE4guy.fbx
@@ -308,6 +368,9 @@ Received Import Request.
 Start importing Assets/Scenes using Guid(0e8397ccf44048c46acc1025f18e983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb33d1c7cddb7a418d94f3246b600eb') in 0.010784 seconds 
   Import took 0.014751 seconds .
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)

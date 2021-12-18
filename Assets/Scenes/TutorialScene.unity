@@ -2678,6 +2678,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc76fd1c248c5aa40968db76ee6ae96e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)

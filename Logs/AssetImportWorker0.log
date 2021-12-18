@@ -17,6 +17,7 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 63127
 Successfully changed project path to: D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
 D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
@@ -26,6 +27,8 @@ Preloading 1 native plugins for Editor in 0.73 ms.
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 57591
 Successfully changed project path to: D:/ITD/Github/ITD-2359Studios-ASG2
 D:/ITD/Github/ITD-2359Studios-ASG2
@@ -33,6 +36,9 @@ Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 88.50 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 1.28 ms.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -82,6 +88,9 @@ Domain Reload Profiling:
 	ReloadAssembly (2238ms)
 		BeginReloadAssembly (65ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -90,6 +99,7 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (378ms)
@@ -109,6 +119,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 		EndReloadAssembly (437ms)
 			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -124,6 +136,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -133,6 +148,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.005066 seconds.
@@ -148,6 +164,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 Registered in 0.009348 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -159,6 +177,9 @@ Domain Reload Profiling:
 	ReloadAssembly (1414ms)
 		BeginReloadAssembly (152ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -185,12 +206,16 @@ Domain Reload Profiling:
 			RebuildScriptCaches (57ms)
 			SetupLoadedEditorAssemblies (588ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				RefreshPlugins (52ms)
@@ -216,6 +241,8 @@ Total: 3.674100 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.124900 m
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
 				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (97ms)
 				ProcessInitializeOnLoadAttributes (416ms)
@@ -237,6 +264,9 @@ System memory in use after: 128.5 MB.
 Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 3340.
 Total: 4.289200 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.142600 ms MarkObjects: 3.623800 ms  DeleteObjects: 0.203800 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
@@ -257,6 +287,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   path: Assets/Scenes/JordanScene.unity
@@ -290,6 +321,8 @@ Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b459407
 =======
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
   path: Assets/Scenes/TutorialScene.unity
   artifactKey: Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/TutorialScene.unity using Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3949802827195b6f5c9a52b83465f233') in 0.009547 seconds 
@@ -311,6 +344,9 @@ Received Import Request.
 Start importing Assets/Scenes/Estther (Forest).unity using Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beeaabca8f010c895354471af9d13be') in 0.011355 seconds 
   Import took 0.016946 seconds .
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c85b6c (tutorial scene and script added)
+=======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
 =======
 >>>>>>> parent of 1c85b6c (tutorial scene and script added)
