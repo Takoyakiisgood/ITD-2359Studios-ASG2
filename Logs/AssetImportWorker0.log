@@ -15,12 +15,21 @@ C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 64492
 Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 69.68 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.90 ms.
+=======
+49325
+Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.84 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.17 ms.
+>>>>>>> Stashed changes
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2/Assets
@@ -35,6 +44,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +58,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1333ms)
 		BeginReloadAssembly (40ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001151 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.84 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (43ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (373ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,12 +86,27 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
 			SetupLoadedEditorAssemblies (155ms)
+=======
+		EndReloadAssembly (394ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (162ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (62ms)
+=======
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,6 +114,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.006337 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +125,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1139ms)
 		BeginReloadAssembly (115ms)
+=======
+Registered in 0.007197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.50 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (124ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (15ms)
 		EndReloadAssembly (977ms)
 			LoadAssemblies (74ms)
@@ -95,20 +150,39 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (50ms)
 			SetupLoadedEditorAssemblies (488ms)
+=======
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (515ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (86ms)
 				ProcessInitializeOnLoadAttributes (336ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (3ms)
+=======
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.81 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
@@ -118,6 +192,17 @@ System memory in use after: 82.4 MB.
 
 Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 3340.
 Total: 5.351700 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.114800 ms MarkObjects: 4.776700 ms  DeleteObjects: 0.224800 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2921 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 4.618100 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.188900 ms MarkObjects: 3.696700 ms  DeleteObjects: 0.407100 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,6 +216,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Scenes/Estther (Forest) 1.unity
   artifactKey: Guid(69026ca99810346449fca6cc9fe6bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Estther (Forest) 1.unity using Guid(69026ca99810346449fca6cc9fe6bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772d8afb356cebf802f61df6486ee82e') in 0.012100 seconds 
@@ -427,3 +513,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+  path: Assets/Prefab/Full Exhibition.prefab
+  artifactKey: Guid(bd4704212167bb343822a3a5fe27d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Full Exhibition.prefab using Guid(bd4704212167bb343822a3a5fe27d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d9cdd421d3d4d062286b876fd0cec') in 0.398114 seconds 
+  Import took 0.413028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.689565 seconds.
+  path: Assets/Scenes/TutorialScene.unity
+  artifactKey: Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TutorialScene.unity using Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fbf51264b7a567c410a4cb08ea9d5f') in 0.004788 seconds 
+  Import took 0.012873 seconds .
+
+>>>>>>> Stashed changes
