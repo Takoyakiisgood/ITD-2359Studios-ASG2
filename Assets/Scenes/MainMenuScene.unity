@@ -480,6 +480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Noticeboard
       objectReference: {fileID: 0}
+    - target: {fileID: 5793637440959698571, guid: 94b883c55e27fe640a2e4577a8ad41ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5793637440959698577, guid: 94b883c55e27fe640a2e4577a8ad41ab, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -540,7 +544,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-29858
+  m_Name: pb_Mesh-4682
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -713,6 +717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoginFormBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 1815799650306498723, guid: f60018ad2d5f13d4da6f9172dc7a7e68, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1815799650306498745, guid: f60018ad2d5f13d4da6f9172dc7a7e68, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -765,6 +773,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1521709681}
+    - target: {fileID: 1815799650306498750, guid: f60018ad2d5f13d4da6f9172dc7a7e68, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2415
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917726693934340254, guid: f60018ad2d5f13d4da6f9172dc7a7e68, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f60018ad2d5f13d4da6f9172dc7a7e68, type: 3}
 --- !u!43 &2120703356
@@ -773,7 +789,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-28802
+  m_Name: pb_Mesh-4608
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
