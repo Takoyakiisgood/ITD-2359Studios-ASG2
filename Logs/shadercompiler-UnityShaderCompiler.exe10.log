@@ -1,4 +1,3 @@
-Base path: 'D:/Programs/2020.3.20f1/Editor/Data', plugins path 'D:/Programs/2020.3.20f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
-
-Cmd: shutdown
+version https://git-lfs.github.com/spec/v1
+oid sha256:010904c235c7fcf02fe75a78ded3180268fd3530e33cc4be0c2360e36d5d0fd3
+size 156
