@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Consumer : MonoBehaviour
 {
-
+    public static Consumer Instance;
     GameObject[] portions;
     int currentIndex;
     float lastChange;
     float interval = 1f;
 
-    bool foodConsumed;
+    public bool foodConsumed;
     void Start()
     {
         foodConsumed = false;
@@ -22,6 +22,10 @@ public class Consumer : MonoBehaviour
             if (portions[i].activeInHierarchy)
                 currentIndex = i;
         }
+    }
+    private void Awake()
+    {
+        Instance = this;
     }
 
     void Update()
