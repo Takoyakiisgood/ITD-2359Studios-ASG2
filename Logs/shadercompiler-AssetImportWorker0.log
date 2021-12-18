@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf47b492a734cedf1befa5daada99f8eb3fb624232b649d573b8292ff575ccec
-size 329
+Base path: 'D:/Programs/2020.3.20f1/Editor/Data', plugins path 'D:/Programs/2020.3.20f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
