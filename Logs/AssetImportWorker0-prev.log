@@ -2,7 +2,11 @@ Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 32556 MB
+=======
+OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16238 MB
+>>>>>>> Stashed changes
 =======
 OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16238 MB
 >>>>>>> Stashed changes
@@ -19,6 +23,7 @@ D:\Programs\2020.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
@@ -136,11 +141,51 @@ Domain Reload Profiling:
 	ReloadAssembly (2238ms)
 		BeginReloadAssembly (65ms)
 >>>>>>> Stashed changes
+=======
+D:/ITD/Github/ITD-2359Studios-ASG2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57591
+Successfully changed project path to: D:/ITD/Github/ITD-2359Studios-ASG2
+D:/ITD/Github/ITD-2359Studios-ASG2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.50 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.28 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path D:/Programs/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ITD/Github/ITD-2359Studios-ASG2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'D:/Programs/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programs/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001139 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.11 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (65ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (373ms)
@@ -180,11 +225,26 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 >>>>>>> Stashed changes
+=======
+		EndReloadAssembly (437ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+>>>>>>> Stashed changes
 				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (17ms)
 				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -194,6 +254,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.006337 seconds.
@@ -230,10 +291,23 @@ Domain Reload Profiling:
 	ReloadAssembly (1414ms)
 		BeginReloadAssembly (152ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.009348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.87 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1414ms)
+		BeginReloadAssembly (152ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (15ms)
@@ -255,17 +329,27 @@ Domain Reload Profiling:
 			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 >>>>>>> Stashed changes
+=======
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+>>>>>>> Stashed changes
 			SetupTypeCache (330ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (57ms)
 			SetupLoadedEditorAssemblies (588ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				RefreshPlugins (53ms)
@@ -313,6 +397,19 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 >>>>>>> Stashed changes
+=======
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+>>>>>>> Stashed changes
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.99 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
@@ -323,6 +420,9 @@ System memory in use after: 128.5 MB.
 Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 3340.
 Total: 4.289200 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.142600 ms MarkObjects: 3.623800 ms  DeleteObjects: 0.203800 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -340,6 +440,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/Scenes/Estther (Forest) 1.unity
@@ -373,6 +474,8 @@ Start importing Assets/Scenes/Esther exhibition.unity using Guid(12dc815199fbd77
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   path: Assets/Scenes/TutorialScene.unity
   artifactKey: Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/TutorialScene.unity using Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3949802827195b6f5c9a52b83465f233') in 0.009547 seconds 
@@ -394,6 +497,9 @@ Received Import Request.
 Start importing Assets/Scenes/Estther (Forest).unity using Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beeaabca8f010c895354471af9d13be') in 0.011355 seconds 
   Import took 0.016946 seconds .
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
