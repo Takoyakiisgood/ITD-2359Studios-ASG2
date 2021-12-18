@@ -1,12 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!1045 &1
-EditorBuildSettings:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Scenes: []
-  m_configObjects:
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 1ccfc3fc9a0b58946b44e49a4526f617, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8545b61d570bd7941af4a25c43ddb107, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 21c9830fcbbcbdb42a07ed55074cb7ae, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 577a7638823a47d49bab02f2d36ba6a7, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae3aad1fe8cdc1b295eae7e33482223a67d14b2ca94d901966e21bacecada8d3
+size 572
