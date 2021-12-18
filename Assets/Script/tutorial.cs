@@ -1,23 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class tutorial : MonoBehaviour
-{
-    public bool teleportTaskDone;
-    public bool grabTaskDone;
-    public void Teleported()
-    {
-        Debug.Log("I have teleported");
-        //set the teleportTask to be done
-        teleportTaskDone = true;
-    }
-
-    void Update()
-    {
-        if (teleportTaskDone && grabTaskDone)
-        {
-            Debug.Log("Tutorial Task Complete!");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df4911711d87ba4cc777014352f369700611406ac36a3e6cf0f455271d2d3d6f
+size 512
