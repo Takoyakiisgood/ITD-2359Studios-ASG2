@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 version https://git-lfs.github.com/spec/v1
 oid sha256:a6f878880751490554eee214e01c1c482fd7f605730bf43131ff400e9b54a1a7
 size 93366
 =======
+=======
+>>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -2977,4 +2980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc76fd1c248c5aa40968db76ee6ae96e, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)
+=======
 >>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)

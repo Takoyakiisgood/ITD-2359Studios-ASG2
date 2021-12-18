@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 version https://git-lfs.github.com/spec/v1
 oid sha256:28cdc96dafdfdd0fb00c883f951c324e76f745b2b383086c9389f987e05da4fd
 size 87040
 =======
+=======
+>>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &8851623150479799022
@@ -1241,4 +1244,7 @@ Transform:
   m_Father: {fileID: 8851623152010456832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)
+=======
 >>>>>>> parent of 251dd73 (Merge branch 'main' of https://github.com/Takoyakiisgood/ITD-2359Studios-ASG2)
