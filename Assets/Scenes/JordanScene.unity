@@ -2962,6 +2962,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9123584850929866670, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123584850929866670, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 554d72d8-1537-43b8-b6b7-b9857bb44cb0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123584850929866670, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <XRSimulatedHMD>/centerEyeRotation
+      objectReference: {fileID: 0}
     - target: {fileID: 9123584851547442725, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
       propertyPath: m_InteractionManager
       value: 
