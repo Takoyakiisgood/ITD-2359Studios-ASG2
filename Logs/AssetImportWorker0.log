@@ -160,3 +160,270 @@ Received Import Request.
 Start importing Assets/Scenes/Esther exhibition.unity using Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47009c62907313fda0ab5bd1fb646cb4') in 0.007911 seconds 
   Import took 0.012551 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 320.562954 seconds.
+  path: Assets/Prefab/Glass.prefab
+  artifactKey: Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Glass.prefab using Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7a6b93217cb17fbaf5fd5e91089330') in 0.042532 seconds 
+  Import took 0.048139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefab/XR Device Simulator.prefab
+  artifactKey: Guid(b03b0aab0a2867846a941630c5d7b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/XR Device Simulator.prefab using Guid(b03b0aab0a2867846a941630c5d7b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ce4aaa99f1745f036498c75c58379') in 0.020133 seconds 
+  Import took 0.024257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefab/LeftHand.fbx
+  artifactKey: Guid(fcdf1b4af0632a84fba3a41755e596f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/LeftHand.fbx using Guid(fcdf1b4af0632a84fba3a41755e596f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6912d7eba62fc58c0b18dce1f278e19') in 0.128641 seconds 
+  Import took 0.133297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefab/RightHand.prefab
+  artifactKey: Guid(ffa4bd6b9d1fcc2429fd1800c9cfc67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/RightHand.prefab using Guid(ffa4bd6b9d1fcc2429fd1800c9cfc67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea0b63983692db466de7d5d6c054190') in 0.016432 seconds 
+  Import took 0.020490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Prefab/XR Origin.prefab
+  artifactKey: Guid(bc76fd1c248c5aa40968db76ee6ae96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/XR Origin.prefab using Guid(bc76fd1c248c5aa40968db76ee6ae96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec6c653dca9ecbf7052267e840d464e') in 0.059565 seconds 
+  Import took 0.064734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Prefab/XR Interaction Manager.prefab
+  artifactKey: Guid(e76058f24ed2c054cadd5bea33c7aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/XR Interaction Manager.prefab using Guid(e76058f24ed2c054cadd5bea33c7aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e1b4caedc2025573cd7525a1e7cf5c') in 0.010355 seconds 
+  Import took 0.015096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.057454 seconds.
+  path: Assets/Prefab/Glass.prefab
+  artifactKey: Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Glass.prefab using Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb7f5489fd28fd7f6270254727ef8a2') in 0.004697 seconds 
+  Import took 0.009279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.794823 seconds.
+  path: Assets/Scenes/Esther exhibition.unity
+  artifactKey: Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Esther exhibition.unity using Guid(12dc815199fbd774bb12394813a6d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c90b6ed49260c3a31624dbf4673b07') in 0.003292 seconds 
+  Import took 0.008447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990211 seconds.
+  path: Assets/Scenes/Esther exhibition 1.unity
+  artifactKey: Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Esther exhibition 1.unity using Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191a59d565f7adf6ac6d09aa3afd93e1') in 0.007394 seconds 
+  Import took 0.012580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.101003 seconds.
+  path: Assets/Scenes/Sunyu exhibition.unity
+  artifactKey: Guid(69026ca99810346449fca6cc9fe6bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sunyu exhibition.unity using Guid(69026ca99810346449fca6cc9fe6bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248687968a924c468dd9775014f1650') in 0.002746 seconds 
+  Import took 0.006942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.879664 seconds.
+  path: Assets/Scenes/Sunyu exhibition.unity
+  artifactKey: Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sunyu exhibition.unity using Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f17cc4153d1ffffb1c6330e9662c82') in 0.002732 seconds 
+  Import took 0.008352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5740.342231 seconds.
+  path: Assets/Imports From Outside Sources/Prefabs/poop.fbx
+  artifactKey: Guid(9804be73d86beb94692f19c573c6c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports From Outside Sources/Prefabs/poop.fbx using Guid(9804be73d86beb94692f19c573c6c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41167886802e7d17f1a1952d1eddefdb') in 0.059530 seconds 
+  Import took 0.066839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.191641 seconds.
+  path: Assets/Materials/Poop.mat
+  artifactKey: Guid(c082a43abf713e24c878797e64dfd839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Poop.mat using Guid(c082a43abf713e24c878797e64dfd839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6e06e3a157ddd2c7084cd6d34bf849') in 0.017545 seconds 
+  Import took 0.022870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.084658 seconds.
+  path: Assets/Prefab/poop.prefab
+  artifactKey: Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/poop.prefab using Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f11e0cbdf58fe024910c503c7f4e9f2') in 0.019601 seconds 
+  Import took 0.027027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.005252 seconds.
+  path: Assets/Prefab/poop.prefab
+  artifactKey: Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/poop.prefab using Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227c6e6604c6d5e673e317f886b04006') in 0.044224 seconds 
+  Import took 0.049932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.912661 seconds.
+  path: Assets/Prefab/poop.prefab
+  artifactKey: Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/poop.prefab using Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4146c5e5cbfbaaa610c7cae58c646e8') in 0.013274 seconds 
+  Import took 0.019043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.926963 seconds.
+  path: Assets/Prefab/poop.prefab
+  artifactKey: Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/poop.prefab using Guid(b77cc68cac716c54aac42fb907c3378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc99d0496f521fe5a4b15ec4e5a52178') in 0.013007 seconds 
+  Import took 0.017599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.787531 seconds.
+  path: Assets/Prefab/XR Origin.prefab
+  artifactKey: Guid(bc76fd1c248c5aa40968db76ee6ae96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/XR Origin.prefab using Guid(bc76fd1c248c5aa40968db76ee6ae96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8b715be9b95555380558d7f90e6c11') in 0.014409 seconds 
+  Import took 0.019671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4508.468827 seconds.
+  path: Assets/Prefab/Glass.prefab
+  artifactKey: Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Glass.prefab using Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b159ab38ae0ef2c2a7b6dddd1246f7e6') in 0.051446 seconds 
+  Import took 0.121347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.57 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@4fc5c3292690-1639823785575\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2c19fabfd22b-1639823769230/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2c19fabfd22b-1639823769230/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2c19fabfd22b-1639823769230/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1802ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1566ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (235ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.1 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 4715.
+Total: 4.639200 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.245200 ms MarkObjects: 3.719600 ms  DeleteObjects: 0.262500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
