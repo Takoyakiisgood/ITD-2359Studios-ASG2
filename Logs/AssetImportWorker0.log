@@ -160,3 +160,4 @@ Received Import Request.
 Start importing Assets/Prefab/Glass.prefab using Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ebae0d16c1bd84488fdb4dcfb796ac') in 0.044894 seconds 
   Import took 0.054391 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
