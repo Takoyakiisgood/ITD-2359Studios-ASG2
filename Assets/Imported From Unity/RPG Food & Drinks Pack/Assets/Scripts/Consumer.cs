@@ -10,8 +10,10 @@ public class Consumer : MonoBehaviour
     float lastChange;
     float interval = 1f;
 
+    bool foodConsumed;
     void Start()
     {
+        foodConsumed = false;
         bool skipFirst = transform.childCount > 4;
         portions = new GameObject[skipFirst ? transform.childCount-1 : transform.childCount];
         for (int i = 0; i < portions.Length; i++)
@@ -26,7 +28,16 @@ public class Consumer : MonoBehaviour
     {
         if (Time.time - lastChange > interval)
         {
-            Consume();
+            if (!foodConsumed)
+            {
+                Consume();
+                if(currentIndex == 4)
+                {
+                    foodConsumed = true;
+                }
+                
+            }
+
             lastChange = Time.time;
         }
     }
