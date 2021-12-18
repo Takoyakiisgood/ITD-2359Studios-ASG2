@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5307105243626904269a333e8fc4ebd9072f69b04011d9255b77c2d9428e3b57
-size 189
+fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/XR/Settings/OpenXR Package Settings.asset.meta
+guid: 21c9830fcbbcbdb42a07ed55074cb7ae
+NativeFormatImporter:
+=======
+guid: 7c44f845f229f534682d76a1b8840716
+DefaultImporter:
+>>>>>>> Stashed changes:Assets/Scenes/MainMenuScene.unity.meta
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
