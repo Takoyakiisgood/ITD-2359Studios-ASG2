@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 32556 MB
+OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16222 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,135 +11,99 @@ C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58406
-Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
-C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+50296
+Successfully changed project path to: D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
+D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.49 ms, found 17 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
+Refreshing native plugins compatible for Editor in 84.80 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2/Assets
+[Subsystems] Discovering subsystems at path D:/NP Stuff/Year 2 Sem 2/ITD&DDA/ITD-2359Studios-ASG2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.6275
+    VRAM:     3962 MB
+    Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000935 seconds.
+Registered in 0.001118 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.77 ms, found 17 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 81.94 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.301 seconds
+- Completed reload, in  1.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1301ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (374ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (175ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008772 seconds.
+Registered in 0.007205 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.51 ms, found 17 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@4fc5c3292690-1639823785575\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
-  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
-  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
-  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:152 
-  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:42 
-  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\kadzushi\A SCHOOL\NGEE ANN\ASG2_ITD_DDA\2359Studios\ITD-2359Studios-ASG2\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bce6c9b3080b-1639823762861\EditorUtilities\OnLoadUtilities.cs:23 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
+Refreshing native plugins compatible for Editor in 79.92 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] Error loading subsystem: Display (1) (header mismatch?)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.863 seconds
+- Completed reload, in  2.399 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1864ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (2400ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1701ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (2224ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1096ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1629ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (659ms)
-				ProcessInitializeOnLoadMethodAttributes (230ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (1175ms)
+				ProcessInitializeOnLoadMethodAttributes (250ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -147,14 +111,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 17 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 17 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.7 MB.
-System memory in use after: 173.6 MB.
+System memory in use before: 181.6 MB.
+System memory in use after: 181.4 MB.
 
-Unloading 267 unused Assets to reduce memory usage. Loaded Objects now: 4675.
-Total: 4.547800 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.658000 ms  DeleteObjects: 0.284900 ms)
+Unloading 268 unused Assets to reduce memory usage. Loaded Objects now: 4693.
+Total: 5.198600 ms (FindLiveObjects: 0.960800 ms CreateObjectMapping: 0.407800 ms MarkObjects: 3.584800 ms  DeleteObjects: 0.244200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -168,153 +132,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Glass.prefab
-  artifactKey: Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Glass.prefab using Guid(799e153367e5261408ae3b1b2feb0611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073205be424a8c11e0ef2e6cd7f4a2be') in 0.055284 seconds 
-  Import took 0.062782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Prefab/XR Device Simulator.prefab
-  artifactKey: Guid(b03b0aab0a2867846a941630c5d7b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/XR Device Simulator.prefab using Guid(b03b0aab0a2867846a941630c5d7b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5fa0cb3d91df41757eb8c061c75f1a') in 0.013040 seconds 
-  Import took 0.018784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefab/LoginFormBoard.prefab
-  artifactKey: Guid(f60018ad2d5f13d4da6f9172dc7a7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LoginFormBoard.prefab using Guid(f60018ad2d5f13d4da6f9172dc7a7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba192d875d4e6d834c2abd3d9d961a8') in 0.033894 seconds 
-  Import took 0.040560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefab/XR Interaction Manager.prefab
-  artifactKey: Guid(e76058f24ed2c054cadd5bea33c7aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/XR Interaction Manager.prefab using Guid(e76058f24ed2c054cadd5bea33c7aca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8a35192dfb3ad60bdbd595a65130e') in 0.011365 seconds 
-  Import took 0.018139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.091354 seconds.
   path: Assets/Scenes/Estther (Forest).unity
   artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fc5525958ca5b043be6ac2f4f65683') in 0.008289 seconds 
-  Import took 0.014804 seconds .
+Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57ddb3e0973b08257ce481a08a55eec') in 0.014267 seconds 
+  Import took 0.020604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10582.892552 seconds.
-  path: Assets/Scenes/Sunyu exhibition.unity
-  artifactKey: Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sunyu exhibition.unity using Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d8c6be6ebd73fe15ebd4019ed1e6c2') in 0.030250 seconds 
-  Import took 0.126747 seconds .
+  Time since last request: 6.884568 seconds.
+  path: Assets/Scenes/Week6.unity
+  artifactKey: Guid(ef210ae5128811a449eb72e73a424682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week6.unity using Guid(ef210ae5128811a449eb72e73a424682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22833d8c8d2e98e6d9df0bdadca5de33') in 0.009199 seconds 
+  Import took 0.015630 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.173842 seconds.
-  path: Assets/Prefab/Stairs
-  artifactKey: Guid(76429e065d468e24e877ff243872622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stairs using Guid(76429e065d468e24e877ff243872622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cba8a9fe848ac54094efac1a09c08a') in 0.007778 seconds 
-  Import took 0.015185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.861967 seconds.
-  path: Assets/Prefab/Stairs/Forest_Stairs.prefab
-  artifactKey: Guid(e97582530166b3b4b801c0bca35843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stairs/Forest_Stairs.prefab using Guid(e97582530166b3b4b801c0bca35843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52aa38201f718ae1ae06d145b80506a') in 0.043341 seconds 
-  Import took 0.050845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.154228 seconds.
-  path: Assets/Prefab/Stairs/Sea_Ladder.prefab
-  artifactKey: Guid(d7c9002f606e08640affb862ae39fc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stairs/Sea_Ladder.prefab using Guid(d7c9002f606e08640affb862ae39fc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6234103c3d295968a1b224382f685fcf') in 0.023384 seconds 
-  Import took 0.036688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.028633 seconds.
-  path: Assets/Prefab/Stairs/Land_Stairs .prefab
-  artifactKey: Guid(2dc21ee632796b640ba4f26499cb58f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stairs/Land_Stairs .prefab using Guid(2dc21ee632796b640ba4f26499cb58f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f26300528a75c819542c81d2288fde') in 0.012793 seconds 
-  Import took 0.020087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.410884 seconds.
-  path: Assets/Prefab/Stairs/Artic_Stairs .prefab
-  artifactKey: Guid(8dccb77eb8da9e64598631b60221ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stairs/Artic_Stairs .prefab using Guid(8dccb77eb8da9e64598631b60221ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd4485611a5c58a1c3af63cc58da42d') in 0.014789 seconds 
-  Import took 0.026452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.009563 seconds.
-  path: Assets/Scenes/Estther (Forest).unity
-  artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625ea79cd231d27b86d70358cac6b9d6') in 0.003216 seconds 
-  Import took 0.011028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 650.945638 seconds.
-  path: Assets/Scenes/Sunyu exhibition.unity
-  artifactKey: Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sunyu exhibition.unity using Guid(7b837c68111033c4e9396e8abb26c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c1741b740657b80dc6fb3f32d2617a') in 0.003233 seconds 
-  Import took 0.012180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.546537 seconds.
-  path: Assets/Scenes/Estther (Forest).unity
-  artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861ba7da441fc7fe624883ae5fc0260') in 0.003155 seconds 
-  Import took 0.010964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 225.055697 seconds.
-  path: Assets/Scenes/Estther (Forest).unity
-  artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5411e8d8875fe0d217a7363f31b4590f') in 0.003816 seconds 
-  Import took 0.012945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 274.458280 seconds.
-  path: Assets/Scenes/Estther (Forest).unity
-  artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c8bb6b790c6fb44e8647bb3e5b761c') in 0.002996 seconds 
-  Import took 0.011483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 562.285115 seconds.
-  path: Assets/Scenes/Estther (Forest).unity
-  artifactKey: Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Estther (Forest).unity using Guid(eb4f25a57c67658458bcb7f4bcfc9f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a54d6fb449bafcdd74ecf45d160385') in 0.003266 seconds 
-  Import took 0.013747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.101034 seconds.
-  path: Assets/Scenes/TutorialScene.unity
-  artifactKey: Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialScene.unity using Guid(942500413ae322640987af598780ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88073704b0591e54054a32a0f5e8bbc0') in 0.010014 seconds 
-  Import took 0.020751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.610976 seconds.
-  path: Assets/Materials/Poop.mat
-  artifactKey: Guid(c082a43abf713e24c878797e64dfd839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Poop.mat using Guid(c082a43abf713e24c878797e64dfd839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553d166e0b91d25c1fa853b111134a3') in 0.181392 seconds 
-  Import took 0.191213 seconds .
+  Time since last request: 20.843932 seconds.
+  path: Assets/Scenes/JordanScene.unity
+  artifactKey: Guid(4953f8ceda36af144807f1e53d9eef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JordanScene.unity using Guid(4953f8ceda36af144807f1e53d9eef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfb285fef709b901994cbe9504f4f57') in 0.005500 seconds 
+  Import took 0.013808 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
