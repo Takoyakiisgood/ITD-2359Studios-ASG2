@@ -34,7 +34,6 @@ public class basket : MonoBehaviour
         if (food.name == AnimalFood)
         {
             //do something when the food is correct
-            Consumer.Instance.foodConsumed = true;
             food.SetActive(false);
             //animal will eat the food
             Debug.Log("Nomm Nommm....");
