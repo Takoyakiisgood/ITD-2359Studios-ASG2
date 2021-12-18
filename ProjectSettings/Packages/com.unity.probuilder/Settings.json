@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dddef49a5facd97a49e73f0668a7abf6b301f12845e283534fdab3bdaa93ec16
-size 1855
+{
+    "m_Name": "Settings",
+    "m_Path": "ProjectSettings/Packages/com.unity.probuilder/Settings.json",
+    "m_Dictionary": {
+        "m_DictionaryValues": []
+    }
+}
