@@ -11,7 +11,16 @@ public class tutorialManager : MonoBehaviour
     public bool grabTaskDone;
     public TMP_Text task1Text;
     public TMP_Text task2Text;
+    public TMP_Text title;
+    public Button startBtn;
 
+    void Start()
+    {
+        if (startBtn != null)
+        {
+            startBtn.gameObject.SetActive(false);
+        }
+    }
     public void Teleported()
     {
         Debug.Log("I have teleported");
@@ -38,8 +47,15 @@ public class tutorialManager : MonoBehaviour
     {
         if (teleportTaskDone && grabTaskDone)
         {
-            Debug.Log("Tutorial Task Complete!");
-            //display the tutorial Task Done
+            //Debug.Log("Tutorial Task Complete!");
+            //if tutorial is completed
+            //Edit the title to be tutorial completed
+            //display the buttons to go back to main menu or start the game
+            if (title != null && startBtn != null)
+            {
+                title.text = "tutorial complete";
+                startBtn.gameObject.SetActive(true);
+            }
         }
     }
 }
