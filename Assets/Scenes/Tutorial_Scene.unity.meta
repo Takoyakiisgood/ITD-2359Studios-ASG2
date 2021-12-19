@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/Tutorial_Scene.unity.meta
 guid: 5a2cd74a3c55d6c4085407398fc95ad8
+=======
+guid: 2b084a253c615604e9482ca06edb063a
+folderAsset: yes
+>>>>>>> 431ee147d4f2d98e0108ca06dbde5fa3e45c985c:Assets/Imports from Celest/DisplayProfiles.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
