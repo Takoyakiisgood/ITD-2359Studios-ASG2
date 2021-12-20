@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 92583382}
   - component: {fileID: 92583381}
   - component: {fileID: 92583380}
+  - component: {fileID: 92583383}
   m_Layer: 5
   m_Name: startBtn
   m_TagString: Untagged
@@ -204,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 92583381}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 92583383}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: UpdateScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &92583381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +256,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92583378}
   m_CullTransparentMesh: 1
+--- !u!114 &92583383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92583378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a09eb367c8ad649a912c9152969718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 3
 --- !u!43 &345448740
 Mesh:
   m_ObjectHideFlags: 0
@@ -407,6 +433,40 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &419993822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7319309812097334259, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+  m_PrefabInstance: {fileID: 7319309812180222783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &854597685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7319309812859813781, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+  m_PrefabInstance: {fileID: 7319309812180222783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &854597690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854597685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!43 &946948106
 Mesh:
   m_ObjectHideFlags: 0
@@ -594,6 +654,7 @@ GameObject:
   - component: {fileID: 1670520643}
   - component: {fileID: 1670520642}
   - component: {fileID: 1670520641}
+  - component: {fileID: 1670520644}
   m_Layer: 5
   m_Name: mainmenuBtn
   m_TagString: Untagged
@@ -663,7 +724,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1670520642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1670520644}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: UpdateScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1670520642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,6 +775,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670520639}
   m_CullTransparentMesh: 1
+--- !u!114 &1670520644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670520639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a09eb367c8ad649a912c9152969718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1
 --- !u!850595691 &1969411900
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1538,7 +1624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3575488944361462333, guid: e76058f24ed2c054cadd5bea33c7aca6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 1.087
       objectReference: {fileID: 0}
     - target: {fileID: 3575488944361462333, guid: e76058f24ed2c054cadd5bea33c7aca6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2411,7 +2497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Timeout: 10
-  m_XROrigin: {fileID: 0}
+  m_XROrigin: {fileID: 419993822}
 --- !u!4 &6642152849149710458
 Transform:
   m_ObjectHideFlags: 0
@@ -2460,7 +2546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Timeout: 10
-  m_XROrigin: {fileID: 0}
+  m_XROrigin: {fileID: 419993822}
 --- !u!114 &6642152849350577063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2473,7 +2559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1398435051}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -4485,7 +4571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7319309812097334258, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 1.087
       objectReference: {fileID: 0}
     - target: {fileID: 7319309812097334258, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4522,6 +4608,22 @@ PrefabInstance:
     - target: {fileID: 7319309812097334260, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
       propertyPath: m_Name
       value: XR Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319309812859813777, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319309812859813777, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319309812859813777, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319309812859813777, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7319309813196894431, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
       propertyPath: m_InteractionManager
@@ -4570,7 +4672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2986514346185919316, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 1.087
       objectReference: {fileID: 0}
     - target: {fileID: 2986514346185919316, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4607,6 +4709,10 @@ PrefabInstance:
     - target: {fileID: 2986514346185919322, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986514346185919322, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
