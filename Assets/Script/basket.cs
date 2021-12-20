@@ -5,6 +5,7 @@ using UnityEngine;
 public class basket : MonoBehaviour
 {
     public string AnimalFood;
+    private GameObject typeOfFood;
     public Animator myanimator;
     private void OnTriggerEnter(Collider other)
     {
@@ -36,7 +37,7 @@ public class basket : MonoBehaviour
         {
             if (food.name == "SmallFish" || food.name ==  "Fish")
             {
-                Consumer.Instance.eatFood = true;
+                food.GetComponent<Consumer>().eatFood = true;
             }
             
             //do something when the food is correct
