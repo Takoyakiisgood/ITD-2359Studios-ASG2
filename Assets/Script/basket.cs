@@ -23,7 +23,8 @@ public class basket : MonoBehaviour
         {
             //do something if the game object is not food
             //Show a UI to Display the Time left to Destory the food
-            //add a timer to destroy the game object? 
+            //add a timer to destroy the game object?
+            Destroy(gameObject);
         }
     }
 
@@ -33,7 +34,11 @@ public class basket : MonoBehaviour
         //Check if the food is the correct food
         if (food.name == AnimalFood)
         {
-            Consumer.Instance.eatFood = true;
+            if (food.name == "SmallFish" || food.name ==  "Fish")
+            {
+                Consumer.Instance.eatFood = true;
+            }
+            
             //do something when the food is correct
             food.SetActive(false);
             //animal will eat the food
