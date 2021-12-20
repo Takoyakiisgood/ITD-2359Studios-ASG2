@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 32556 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,356 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/celes/OneDrive/Desktop/ITD/ITD 2359Studios ASG2
+C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64652
-Successfully changed project path to: C:/Users/celes/OneDrive/Desktop/ITD/ITD 2359Studios ASG2
-C:/Users/celes/OneDrive/Desktop/ITD/ITD 2359Studios ASG2
+53858
+Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.76 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 1.62 ms.
+Refreshing native plugins compatible for Editor in 89.26 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.12 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/celes/OneDrive/Desktop/ITD/ITD 2359Studios ASG2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   27.21.14.6589
+    Driver:   27.21.14.6275
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001764 seconds.
+Registered in 0.001149 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.46 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 79.60 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
+- Completed reload, in  1.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2075ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1902ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (505ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (215ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011679 seconds.
+Registered in 0.008129 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.65 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 97.05 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
+- Completed reload, in  1.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1600ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1725ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1369ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1489ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
+			SetupTypeCache (388ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (675ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (756ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 141 unused Assets to reduce memory usage. Loaded Objects now: 3417.
-Total: 4.381200 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.270600 ms MarkObjects: 3.389700 ms  DeleteObjects: 0.263200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/FoxEating.anim
-  artifactKey: Guid(4d76874285b29f0488edfe9920949cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/FoxEating.anim using Guid(4d76874285b29f0488edfe9920949cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31657d99fd3db227b9c40d8d5118a127') in 0.197439 seconds 
-  Import took 0.203106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.009410 seconds.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/Eating.anim
-  artifactKey: Guid(4d76874285b29f0488edfe9920949cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/Eating.anim using Guid(4d76874285b29f0488edfe9920949cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8ee87555dfb05dfceb32f51b8fa0e4') in 0.161260 seconds 
-  Import took 0.167100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.289477 seconds.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkAwayFox.anim
-  artifactKey: Guid(2d06a83473347054caf7fbd82c3e387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkAwayFox.anim using Guid(2d06a83473347054caf7fbd82c3e387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fc82f235b072f8a1bb86228944b569') in 0.093549 seconds 
-  Import took 0.098365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.152628 seconds.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkAway.anim
-  artifactKey: Guid(2d06a83473347054caf7fbd82c3e387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkAway.anim using Guid(2d06a83473347054caf7fbd82c3e387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8b4249e2444c82290a926bd550d9b1') in 0.086623 seconds 
-  Import took 0.091781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.638458 seconds.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkToFood.anim
-  artifactKey: Guid(f77eec5970a49fc4d9656f8c67458eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/FoxAnimations/WalkToFood.anim using Guid(f77eec5970a49fc4d9656f8c67458eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35bc383d0bf07d3060e8faa7d1b87d6') in 0.087244 seconds 
-  Import took 0.092914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.130966 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations
-  artifactKey: Guid(04d73657c4a938446916327778bc0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations using Guid(04d73657c4a938446916327778bc0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e076011f9882fcef16179f4b889f4b') in 0.007810 seconds 
-  Import took 0.013723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.790600 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/PenguinAnim.anim
-  artifactKey: Guid(aefbd61cd5bd82f45883cbb4c95c2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/PenguinAnim.anim using Guid(aefbd61cd5bd82f45883cbb4c95c2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16cc3d38ac8a245f11e9d865fe04e96') in 0.008826 seconds 
-  Import took 0.016247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.588586 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Penguin.controller
-  artifactKey: Guid(598a556767f88e049b48a7c741875cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Penguin.controller using Guid(598a556767f88e049b48a7c741875cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a152a6369b5a48e419ee1156835c12f') in 0.018161 seconds 
-  Import took 0.023304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.034839 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalktoFood.anim
-  artifactKey: Guid(7c9f5882ff5130e4d96fb54fab326df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalktoFood.anim using Guid(7c9f5882ff5130e4d96fb54fab326df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d381360b091dbaf0707dc41f2b45027') in 0.007023 seconds 
-  Import took 0.012781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.081854 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalkToFood.anim
-  artifactKey: Guid(7c9f5882ff5130e4d96fb54fab326df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalkToFood.anim using Guid(7c9f5882ff5130e4d96fb54fab326df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8667c792e3fdc309f1e004f3a467afeb') in 0.002196 seconds 
-  Import took 0.007055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 380.800575 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Eating.anim
-  artifactKey: Guid(0bbe77f2c69ba9240bad59195a8e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Eating.anim using Guid(0bbe77f2c69ba9240bad59195a8e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dcc1abaa201da4202318bd333df37c') in 0.003581 seconds 
-  Import took 0.010004 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014450 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1132ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.9 MB.
-System memory in use after: 125.1 MB.
+Unloading 2932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.9 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3420.
-Total: 3.536600 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.130200 ms MarkObjects: 3.122700 ms  DeleteObjects: 0.020200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 838.387279 seconds.
-  path: Assets/Imported From Unity/Animals/Fox/Animations/Fox_ Animator_Controller.controller
-  artifactKey: Guid(0c5b7ffa0a986b24ea0ddfc7e545c76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Fox/Animations/Fox_ Animator_Controller.controller using Guid(0c5b7ffa0a986b24ea0ddfc7e545c76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91208178aaaec317ecfee56a0d825e6b') in 0.384843 seconds 
-  Import took 0.400411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 178.454624 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Idle.anim
-  artifactKey: Guid(cc5a3a5074d124149b1018cfa78b200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/Idle.anim using Guid(cc5a3a5074d124149b1018cfa78b200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a62ae79c672bd39ff558f4f747104f6') in 0.103277 seconds 
-  Import took 0.116263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.421968 seconds.
-  path: Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalkAway.anim
-  artifactKey: Guid(93d707d0334bf744ea112b97165c6518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Penguin/Animations/PenguinAnimations/WalkAway.anim using Guid(93d707d0334bf744ea112b97165c6518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fbe45a403e82335f72c8fd60371ed2') in 0.002716 seconds 
-  Import took 0.017367 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1132ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3423.
-Total: 3.892400 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.176100 ms MarkObjects: 3.369400 ms  DeleteObjects: 0.028100 ms)
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 3352.
+Total: 7.245600 ms (FindLiveObjects: 0.532800 ms CreateObjectMapping: 0.258600 ms MarkObjects: 5.714800 ms  DeleteObjects: 0.733500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -369,236 +126,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1716.911120 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnim
-  artifactKey: Guid(5e14d917acff41e459c79171e6d37552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnim using Guid(5e14d917acff41e459c79171e6d37552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd322242be93764acfe3891eed94a5127') in 0.012127 seconds 
-  Import took 0.019218 seconds .
+  path: Assets/Scenes/DAY1_GameScene 1.unity
+  artifactKey: Guid(66cf461862dfa82458d243670a9fca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DAY1_GameScene 1.unity using Guid(66cf461862dfa82458d243670a9fca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7ce9f638f4009518cb6922deb57387') in 0.018079 seconds 
+  Import took 0.024911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.731768 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations
-  artifactKey: Guid(5e14d917acff41e459c79171e6d37552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations using Guid(5e14d917acff41e459c79171e6d37552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af540ffb11ff40cbae224565bddd607') in 0.008349 seconds 
-  Import took 0.021543 seconds .
+  Time since last request: 52.247932 seconds.
+  path: Assets/Scenes/DAY2_GameScene.unity
+  artifactKey: Guid(66cf461862dfa82458d243670a9fca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DAY2_GameScene.unity using Guid(66cf461862dfa82458d243670a9fca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289b939b91adc9173a4bc8cdae33f833') in 0.010369 seconds 
+  Import took 0.020338 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1005.846868 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/WalkToFood.anim
-  artifactKey: Guid(88c9d2b3f4da4564ebe47693c7895ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/WalkToFood.anim using Guid(88c9d2b3f4da4564ebe47693c7895ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448e3dcf8485eea2fab59fd30c323340') in 0.022528 seconds 
-  Import took 0.028751 seconds .
+  Time since last request: 14.804597 seconds.
+  path: Assets/Scenes/DAY1_GameScene.unity
+  artifactKey: Guid(c4f640f4c84025d49b73c9c612b33b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DAY1_GameScene.unity using Guid(c4f640f4c84025d49b73c9c612b33b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a9a83ee705b4d557bcb30e09a21e24') in 0.009454 seconds 
+  Import took 0.018287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 829.894266 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/humpback_whale_model23.controller
-  artifactKey: Guid(dd90b91344b8d9741a187bb4b3f04ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/humpback_whale_model23.controller using Guid(dd90b91344b8d9741a187bb4b3f04ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87022fa419737bb4724b74fda9ee37a5') in 0.017403 seconds 
-  Import took 0.023551 seconds .
+  Time since last request: 59.679402 seconds.
+  path: Assets/Prefab/FoxFence.prefab
+  artifactKey: Guid(8a1c481773acb954d86da001138e38bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/FoxFence.prefab using Guid(8a1c481773acb954d86da001138e38bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71dad5429ec8ee2525df5b301285f7b') in 0.145619 seconds 
+  Import took 0.151913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 461.602342 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/Eating.anim
-  artifactKey: Guid(804e093a5110a284980e76d7cc5ca460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/Eating.anim using Guid(804e093a5110a284980e76d7cc5ca460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5877fd90d53b11840d75efc5aca69ad') in 0.003519 seconds 
-  Import took 0.011799 seconds .
+  Time since last request: 14.189447 seconds.
+  path: Assets/Materials/Glove_rubber_albedo.mat
+  artifactKey: Guid(fa4410c526d8a494eae22cad21b8116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glove_rubber_albedo.mat using Guid(fa4410c526d8a494eae22cad21b8116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518aeed8a0d4676348e82beab37e2b62') in 0.053142 seconds 
+  Import took 0.058087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 465.382035 seconds.
-  path: Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/humpback_whale_model23.controller
-  artifactKey: Guid(dd90b91344b8d9741a187bb4b3f04ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Humpback whale/WhaleAnimations/humpback_whale_model23.controller using Guid(dd90b91344b8d9741a187bb4b3f04ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc619a0841300ebc6ecafe30233e2d') in 0.026386 seconds 
-  Import took 0.033612 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/Glove/Glove_rubber_metallic.jpeg
+  artifactKey: Guid(d3342e395f3997344b6c74ec0c3fabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Glove/Glove_rubber_metallic.jpeg using Guid(d3342e395f3997344b6c74ec0c3fabc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1ea8b5f0e9a73a53f8499d6227f7ae') in 0.062228 seconds 
+  Import took 0.066840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 673.327349 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations
-  artifactKey: Guid(776f923f3e6001b4cb4397cc4be7df98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations using Guid(776f923f3e6001b4cb4397cc4be7df98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0628057cdf51621b9fdb694f87b7082') in 0.006724 seconds 
-  Import took 0.020399 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Textures/Glove/Glove_rubber_albedo.jpeg
+  artifactKey: Guid(4411edfbd00bf594fbed671b990e324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Glove/Glove_rubber_albedo.jpeg using Guid(4411edfbd00bf594fbed671b990e324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44a0566b28dc9dc7948c9bf87458381') in 0.030712 seconds 
+  Import took 0.037275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.707937 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller
-  artifactKey: Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller using Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757ca68ce40f2a553f52d7b2697a9255') in 0.009107 seconds 
-  Import took 0.015866 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/imports from Huiling/gloveBox.mat
+  artifactKey: Guid(ece25a115ee1f0f4eac5c98137d8fbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports from Huiling/gloveBox.mat using Guid(ece25a115ee1f0f4eac5c98137d8fbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5f1b4afa82aeb716892921c707e26f') in 0.039883 seconds 
+  Import took 0.045679 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.248006 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations/WalkAway.anim
-  artifactKey: Guid(cd95eee5b9c8ffc408389f3f71191234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations/WalkAway.anim using Guid(cd95eee5b9c8ffc408389f3f71191234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401f9e57d62aa6695479970561b3a3aa') in 0.002747 seconds 
-  Import took 0.015329 seconds .
+  Time since last request: 0.000147 seconds.
+  path: Assets/Textures/Glove/Glove_rubber_normal.png
+  artifactKey: Guid(3d3ce4f7af0945642b558cfa47f4342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Glove/Glove_rubber_normal.png using Guid(3d3ce4f7af0945642b558cfa47f4342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601a1dc7525c4ad1da2b087c0b1e1b11') in 0.033715 seconds 
+  Import took 0.038357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 213.325352 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller
-  artifactKey: Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller using Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2db09dae2cbe53fff1debc8badb1ce9') in 0.005384 seconds 
-  Import took 0.011132 seconds .
+  Time since last request: 0.000147 seconds.
+  path: Assets/imports from Huiling/glovebox.fbx
+  artifactKey: Guid(2084f65357e2843499f3e232c78b9d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports from Huiling/glovebox.fbx using Guid(2084f65357e2843499f3e232c78b9d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd9bb9778b9038101ce0a866180357c') in 0.074490 seconds 
+  Import took 0.079282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.877428 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations/WalkToFood.anim
-  artifactKey: Guid(27c7b2e75805a9a4090d492755000560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations/WalkToFood.anim using Guid(27c7b2e75805a9a4090d492755000560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a08f01b7463011079e442d113fd8a3') in 0.006870 seconds 
-  Import took 0.019155 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/imports from Huiling/Nitrile_Glove_Box_1.jpg
+  artifactKey: Guid(ddbfa63f782c1504baeea2594079f486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports from Huiling/Nitrile_Glove_Box_1.jpg using Guid(ddbfa63f782c1504baeea2594079f486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f939f9be8ce1c54e34b28d9164cbef6') in 0.017996 seconds 
+  Import took 0.022850 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013161 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1137ms)
-		BeginReloadAssembly (178ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (351ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3426.
-Total: 4.407800 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.280300 ms MarkObjects: 3.643800 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 75.159228 seconds.
-  path: Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller
-  artifactKey: Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported From Unity/Animals/Deer/DeerAnimations/deer.controller using Guid(5f237b33505b9134b83d786c412d1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506837a02b7243dd7facb619f8e63b6') in 0.034887 seconds 
-  Import took 0.041606 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1041ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (871ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.57 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3429.
-Total: 5.457500 ms (FindLiveObjects: 0.760700 ms CreateObjectMapping: 0.515900 ms MarkObjects: 4.151500 ms  DeleteObjects: 0.027900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
