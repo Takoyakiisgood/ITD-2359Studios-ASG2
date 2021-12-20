@@ -6,8 +6,12 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+
     private int dayCount;
     private int taskCount;
+
+    private bool hasGlove;
 
     private TMP_Text currentTask;
 
@@ -15,11 +19,19 @@ public class GameManager : MonoBehaviour
     public List<string> Day2TaskList = new List<string>();
     public List<string> Day3TaskList = new List<string>();
 
+    private void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         dayCount = 1;
     }
 
+    public void SetGloves()
+    {
+        hasGlove = true;
+    }
     void DisplayTaskList(string dayCount)
     {
         if (dayCount == "1")
