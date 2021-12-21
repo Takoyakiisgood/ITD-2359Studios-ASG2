@@ -46,7 +46,10 @@ public class Day1Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (NextDayBtn != null)
+        {
+            NextDayBtn.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -56,6 +59,10 @@ public class Day1Manager : MonoBehaviour
         {
             Debug.Log("Day 1 Task Done");
             //display the button to go to nextscene
+            if (NextDayBtn != null)
+            {
+                NextDayBtn.gameObject.SetActive(true);
+            }
             //do the nessary updates on database
         }
     }

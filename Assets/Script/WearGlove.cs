@@ -9,7 +9,7 @@ public class WearGlove : MonoBehaviour
     public void wearGlove()
     {
         //set the player is wearing glove to be true
-        GameManager.Instance.SetGloves();
+        
         //change the material of the hands to glove mat
 
         //get all the mesh renderers
