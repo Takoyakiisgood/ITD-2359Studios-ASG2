@@ -18,8 +18,6 @@ public class ChangeScene : MonoBehaviour
     [SerializeField]
     private int index;
 
-
-
     public void UpdateScene()
     {
         SceneManager.LoadScene(index);

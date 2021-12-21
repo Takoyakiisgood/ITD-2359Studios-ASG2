@@ -11,8 +11,6 @@ public class GameManager : MonoBehaviour
     private int dayCount;
     private int taskCount;
 
-    private bool hasGlove;
-
     private TMP_Text currentTask;
 
     public List<string> Day1TaskList = new List<string>();
@@ -25,13 +23,11 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        //Get the player progress from the database: players path
+        //if the currentDay is 1 switch the scene to day1 otherwise switch to day2 or 3
         dayCount = 1;
     }
 
-    public void SetGloves()
-    {
-        hasGlove = true;
-    }
     void DisplayTaskList(string dayCount)
     {
         if (dayCount == "1")

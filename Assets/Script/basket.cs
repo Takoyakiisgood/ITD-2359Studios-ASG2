@@ -36,8 +36,9 @@ public class basket : MonoBehaviour
             food.SetActive(false);
             //animal will eat the food
             Debug.Log("Nomm Nommm....");
-            
+
             //add the function to increase FeedNum
+            Day1Manager.Instance.FeedDone();
         }
         else
         {
