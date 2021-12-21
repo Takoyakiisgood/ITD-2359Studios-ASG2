@@ -958,7 +958,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20824
+  m_Name: pb_Mesh20948
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1319,6 +1319,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 409248, guid: da8e893168526164591f81d60c0e06b1, type: 3}
   m_PrefabInstance: {fileID: 2367935377102231484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &454326370 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7666986768240843510, guid: 9fedecbd1aa68924b816f15cb97e611a, type: 3}
+  m_PrefabInstance: {fileID: 2367935376290591570}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &470674199 stripped
 Transform:
@@ -3610,6 +3615,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5857243222854671443, guid: 0c5f12974c9ece84db63a0c7a6ae2bea, type: 3}
   m_PrefabInstance: {fileID: 3933886683243831684}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &955551618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955551616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9103a0b93a9a840b83e17054bb8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalFood: Meat
+  myanimator: {fileID: 454326370}
 --- !u!43 &972673021
 Mesh:
   m_ObjectHideFlags: 0
@@ -4715,6 +4734,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3935827, y: 0.106321044, z: 0.39647347}
   m_Center: {x: 0.000000022351742, y: 0.05316076, z: 0.0000010356307}
+--- !u!114 &1253522728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253522725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9103a0b93a9a840b83e17054bb8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalFood: SmallFish
+  myanimator: {fileID: 1737516413}
 --- !u!1001 &1256849164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5151,6 +5184,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3935827, y: 0.106321044, z: 0.39647347}
   m_Center: {x: 0.000000022351742, y: 0.053159747, z: 0.00000008195639}
+--- !u!114 &1350307087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350307084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9103a0b93a9a840b83e17054bb8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalFood: Cabbage
+  myanimator: {fileID: 3178962428903055563}
 --- !u!1 &1352392776
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,6 +7205,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3935827, y: 0.106321044, z: 0.39647347}
   m_Center: {x: 0.000000022351742, y: 0.053160284, z: 0.00000008195639}
+--- !u!114 &1791716370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791716367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9103a0b93a9a840b83e17054bb8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalFood: Fish
+  myanimator: {fileID: 240743017}
 --- !u!4 &1792762863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4361374554138886284, guid: 9fedecbd1aa68924b816f15cb97e611a, type: 3}

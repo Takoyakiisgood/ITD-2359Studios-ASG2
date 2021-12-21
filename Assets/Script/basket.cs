@@ -15,7 +15,7 @@ public class basket : MonoBehaviour
         {
             Debug.Log("Animation of animal walking to the food....");
             //set the animation of the animal coming towards the food
-            myanimator.SetBool("Moving", true);
+            myanimator.SetTrigger("EatFood");
 
             //wait for the animation to be completed before playing the others
             StartCoroutine(CheckFood(other.gameObject));           
@@ -48,7 +48,7 @@ public class basket : MonoBehaviour
         else
         {
             //the animal will turn back
-            myanimator.SetBool("Moving", false);
+            myanimator.SetTrigger("EatFood");
         }
     }
 
