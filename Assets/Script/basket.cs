@@ -5,11 +5,11 @@ using UnityEngine;
 public class basket : MonoBehaviour
 {
     public string AnimalFood;
-    private GameObject typeOfFood;
     public Animator myanimator;
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag + " is inside the basket");
+        //Debug.Log(other.gameObject.tag + " is inside the basket");
         //Check if the Object inside is a food if not do something
         if (other.gameObject.tag == "Food")
         {
@@ -20,13 +20,6 @@ public class basket : MonoBehaviour
             //wait for the animation to be completed before playing the others
             StartCoroutine(CheckFood(other.gameObject));           
         }
-        else
-        {
-            //do something if the game object is not food
-            //Show a UI to Display the Time left to Destory the food
-            //add a timer to destroy the game object?
-            Destroy(gameObject);
-        }
     }
 
     private IEnumerator CheckFood(GameObject food)
@@ -35,11 +28,10 @@ public class basket : MonoBehaviour
         //Check if the food is the correct food
         if (food.name == AnimalFood)
         {
-            if (food.name == "SmallFish" || food.name ==  "Fish")
+            if (food.name == "SmallFish" || food.name == "Fish")
             {
                 food.GetComponent<Consumer>().eatFood = true;
-            }
-            
+            }            
             //do something when the food is correct
             food.SetActive(false);
             //animal will eat the food
@@ -48,7 +40,7 @@ public class basket : MonoBehaviour
         else
         {
             //the animal will turn back
-            myanimator.SetTrigger("EatFood");
+            myanimator.SetTrigger("WrongFood");
         }
     }
 
