@@ -35,8 +35,8 @@ public class Consumer : MonoBehaviour
         {
             if (!foodConsumed && eatFood == true)
             {
-                Consume();
-                if (currentIndex == 4)
+                StartCoroutine(Waitforsecs(1));
+                if (currentIndex == 2)
                 {
                     foodConsumed = true;
                 }
@@ -59,4 +59,9 @@ public class Consumer : MonoBehaviour
         portions[currentIndex].SetActive(true);
     }
 
+    private IEnumerator Waitforsecs(int seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Consume();
+    }
 }
