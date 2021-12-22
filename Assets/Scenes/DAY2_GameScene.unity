@@ -8248,6 +8248,7 @@ MonoBehaviour:
   rightHand: {fileID: 235655719}
   leftHand: {fileID: 1596846816}
   materialToChange: {fileID: 2100000, guid: cba76472341988f449877923ac1560fc, type: 2}
+  materialBack: {fileID: -7492275243852492049, guid: e8a3e371fd4a7064d98871b72bb9abb4, type: 3}
   cleanComplete: 0
   animalFoundComplete: 0
   foxFound: 0
@@ -34078,6 +34079,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1663051808}
+        m_TargetAssemblyTypeName: Day2Manager, Assembly-CSharp
+        m_MethodName: changeBackColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -54737,6 +54750,18 @@ MonoBehaviour:
       - m_Target: {fileID: 3178962428903055568}
         m_TargetAssemblyTypeName: DeerAi, Assembly-CSharp
         m_MethodName: ReleasetheAnimal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1663051808}
+        m_TargetAssemblyTypeName: Day2Manager, Assembly-CSharp
+        m_MethodName: changeBackColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

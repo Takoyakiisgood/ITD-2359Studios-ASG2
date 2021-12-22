@@ -13,6 +13,7 @@ public class Day2Manager : MonoBehaviour
     public SkinnedMeshRenderer rightHand;
     public SkinnedMeshRenderer leftHand;
     public Material materialToChange;
+    public Material materialBack;
 
     [Header("Check Task Done")]
     public bool cleanComplete;
@@ -60,6 +61,15 @@ public class Day2Manager : MonoBehaviour
         }
     }
 
+    public void changeBackColor()
+    {
+        //change back the hands original color
+        if (materialToChange != null && rightHand != null && leftHand != null)
+        {
+            rightHand.material = materialBack;
+            leftHand.material = materialBack;
+        }
+    }
     public void animalCaptureCheck() 
     {
         if (foxFound && deerFound)
@@ -93,7 +103,10 @@ public class Day2Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (examDayBtn != null)
+        {
+            examDayBtn.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
