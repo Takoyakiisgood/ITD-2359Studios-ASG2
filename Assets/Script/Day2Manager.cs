@@ -10,10 +10,15 @@ public class Day2Manager : MonoBehaviour
     public TMP_Text task1Text;
     public TMP_Text task2Text;
     public Button examDayBtn;
+    
     public SkinnedMeshRenderer rightHand;
     public SkinnedMeshRenderer leftHand;
-    public Material materialToChange;
-    public Material materialBack;
+    //public Material handMat;
+    [Header("Edit the blinking effect")]
+    public Color startColor;
+    public Color endColor;
+    [Range(0, 10)]
+    public float Speed = 1;
 
     [Header("Check Task Done")]
     public bool cleanComplete;
@@ -26,6 +31,7 @@ public class Day2Manager : MonoBehaviour
     private bool deerFound;
 
     public bool hasGlove;
+    public bool hurtHand;
     public int cleanNum;
     public static Day2Manager Instance;
 
@@ -53,23 +59,22 @@ public class Day2Manager : MonoBehaviour
             //minus the chance point
 
             //change the material of the hand to red
-            if (materialToChange != null && rightHand != null && leftHand != null) 
+            if (!hurtHand && rightHand != null && leftHand != null) 
             {
-                rightHand.material = materialToChange;
-                leftHand.material = materialToChange;
+                //play the blinking effect at update
+                hurtHand = true;
+                //wait for 3 seconds to blink color before changing back the colors
+                StartCoroutine(BlinkColor(3));
             }
         }
     }
 
-    public void changeBackColor()
+    private IEnumerator BlinkColor(int sec)
     {
-        //change back the hands original color
-        if (materialToChange != null && rightHand != null && leftHand != null)
-        {
-            rightHand.material = materialBack;
-            leftHand.material = materialBack;
-        }
+        yield return new WaitForSeconds(sec);
+        hurtHand = false;
     }
+
     public void animalCaptureCheck() 
     {
         if (foxFound && deerFound)
@@ -112,6 +117,12 @@ public class Day2Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hurtHand && rightHand!= null && leftHand != null)
+        {
+            rightHand.material.color = Color.Lerp(startColor, endColor, Mathf.PingPong(Time.time * Speed, 1));
+            leftHand.material.color = Color.Lerp(startColor, endColor, Mathf.PingPong(Time.time * Speed, 1));
+        }
+        
         if (animalFoundComplete && cleanComplete)
         {
             Debug.Log("Day 2 Task Done");
