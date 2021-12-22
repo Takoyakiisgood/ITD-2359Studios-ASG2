@@ -160,3 +160,52 @@ Received Import Request.
 Start importing Assets/Scenes/FreeToPlay.unity using Guid(4408b69d49ac801478f60ee94fc29661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dca26ede990aab7ec8a0cd331853df6') in 0.007664 seconds 
   Import took 0.013036 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 888.040611 seconds.
+  path: Assets/Imported From Unity/Food Pack Mixed/Scenes/PlaneMat.mat
+  artifactKey: Guid(c016895e71db5f343a16081b9a4eb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported From Unity/Food Pack Mixed/Scenes/PlaneMat.mat using Guid(c016895e71db5f343a16081b9a4eb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f825c2e3f6fc265788f6225b65a09d3d') in 0.116835 seconds 
+  Import took 0.121836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.457986 seconds.
+  path: Assets/Prefab/Broom.prefab
+  artifactKey: Guid(7e3b6f7d9e93ba74499141ab8d46c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Broom.prefab using Guid(7e3b6f7d9e93ba74499141ab8d46c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c342e6654e65d838a6d308a034a9f9b') in 0.057022 seconds 
+  Import took 0.062508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Prefab/Exhibition.prefab
+  artifactKey: Guid(35ad19d3f52db4948bfadda7e8f0c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Exhibition.prefab using Guid(35ad19d3f52db4948bfadda7e8f0c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fc8f9caa2e584991d103848f3b6575') in 0.568896 seconds 
+  Import took 0.585190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefab/Full Exhibition.prefab
+  artifactKey: Guid(bd4704212167bb343822a3a5fe27d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Full Exhibition.prefab using Guid(bd4704212167bb343822a3a5fe27d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277b44ffbdf615032d0367eae1faf433') in 0.509049 seconds 
+  Import took 0.528357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefab/dustpan.prefab
+  artifactKey: Guid(3f39e529235755e4db78cc6bb4e209b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/dustpan.prefab using Guid(3f39e529235755e4db78cc6bb4e209b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa51dd56c023717f19b801aec0c930b4') in 0.022687 seconds 
+  Import took 0.028046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.737045 seconds.
+  path: Assets/Prefab/Overlay_Canvas.prefab
+  artifactKey: Guid(ef4dd1de6774e56419a74d9aa1d696ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Overlay_Canvas.prefab using Guid(ef4dd1de6774e56419a74d9aa1d696ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d4d4bb2c27a44aeb1f8eef35578744') in 0.015230 seconds 
+  Import took 0.020433 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
