@@ -13,7 +13,7 @@ public class Day2Manager : MonoBehaviour
     
     public SkinnedMeshRenderer rightHand;
     public SkinnedMeshRenderer leftHand;
-    //public Material handMat;
+    public Material handMat;
     [Header("Edit the blinking effect")]
     public Color startColor;
     public Color endColor;
@@ -73,6 +73,8 @@ public class Day2Manager : MonoBehaviour
     {
         yield return new WaitForSeconds(sec);
         hurtHand = false;
+        leftHand.material = handMat;
+        rightHand.material = handMat;
     }
 
     public void animalCaptureCheck() 
