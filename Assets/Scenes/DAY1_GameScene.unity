@@ -977,7 +977,7 @@ HingeJoint:
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -0.3015766, y: 1.0769978, z: 8.483932}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
     spring: 0
     damper: 0
@@ -987,7 +987,7 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_Limits:
     min: 0
     max: 120.723145
@@ -1743,7 +1743,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20306
+  m_Name: pb_Mesh55232
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7504,7 +7504,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2634
+  m_Name: pb_Mesh-30680
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16318,7 +16318,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3511325375820423461, guid: 69ad888649db9fa458ff7ea504ddcd9b, type: 3}
+  - {fileID: 2100000, guid: 509d8797fb972724fb5207df1d3064eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -57963,7 +57963,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6719245597448002910, guid: 69ad888649db9fa458ff7ea504ddcd9b, type: 3}
+  - {fileID: 2100000, guid: 9ad25b30240c27f4ea60155394551c7d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -60726,7 +60726,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2504525506778435629, guid: 69ad888649db9fa458ff7ea504ddcd9b, type: 3}
+  - {fileID: 2100000, guid: ce0c054fb4727824387d5caf0578aea8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
