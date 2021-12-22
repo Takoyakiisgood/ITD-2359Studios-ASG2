@@ -13,38 +13,61 @@ public class basket : MonoBehaviour
         //Check if the Object inside is a food if not do something
         if (other.gameObject.tag == "Food")
         {
-            Debug.Log("Animation of animal walking to the food....");
-            //set the animation of the animal coming towards the food
-            myanimator.SetTrigger("EatFood");
-
-            //wait for the animation to be completed before playing the others
-            StartCoroutine(CheckFood(other.gameObject));           
+            CheckFood(other.gameObject);
         }
     }
-
-    private IEnumerator CheckFood(GameObject food)
+    public void CheckFood(GameObject food)
     {
-        yield return new WaitForSeconds(3);
-        //Check if the food is the correct food
         if (food.name == AnimalFood)
         {
-            if (food.name == "SmallFish" || food.name == "Fish")
+            //play the animation of the animal eating food
+            myanimator.SetTrigger("EatFood");
+            //get the animal name
+            string animal = myanimator.gameObject.name;
+            if (animal == "Whale")
             {
-                food.GetComponent<Consumer>().eatFood = true;
-            }            
-            //do something when the food is correct
-            food.SetActive(false);
-            //animal will eat the food
-            Debug.Log("Nomm Nommm....");
-
-            //add the function to increase FeedNum
-            Day1Manager.Instance.FeedDone();
+                Day1Manager.Instance.fedWhale = true;
+            }
+            else if (animal == "Fox")
+            {
+                Day1Manager.Instance.fedFox = true;
+            }
+            else if (animal == "Deer")
+            {
+                Day1Manager.Instance.fedDeer = true;
+            }
+            else 
+            {
+                Day1Manager.Instance.fedPeguin = true;
+            }
+            //check if all the animals have been fed
+            Day1Manager.Instance.FedCheck();
+            //wait for the animation to be completed before setting the food to be gone
+            StartCoroutine(SetFoodDisappear(food, 3));
+        }
+        else 
+        {
+            //play the animation of the animal walking away
+            myanimator.SetTrigger("WrongFood");
+        }
+    }
+    private IEnumerator SetFoodDisappear(GameObject food, int sec)
+    {
+        
+        if (food.name == "Small Fish" || food.name == "Fish")
+        {
+            food.GetComponent<Consumer>().eatFood = true;
         }
         else
         {
-            //the animal will turn back
-            myanimator.SetTrigger("WrongFood");
+            yield return new WaitForSeconds(sec);
+            //do something when the food is correct
+            food.SetActive(false);
         }
+
+        //animal will eat the food
+        Debug.Log("Nomm Nommm....");
+
     }
 
 }

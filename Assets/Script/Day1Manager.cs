@@ -8,19 +8,26 @@ public class Day1Manager : MonoBehaviour
 {
     public bool feedComplete;
     public bool cleanComplete;
-    private int feedNum;
-    private int cleanNum;
+    [Header("Check Animal Fed")]
+    public bool fedFox;
+    public bool fedWhale;
+    public bool fedPeguin;
+    public bool fedDeer;
+    public int cleanNum;
 
     public TMP_Text task1Text;
     public TMP_Text task2Text;
     public Button NextDayBtn;
 
     public static Day1Manager Instance;
-
-    public void FeedDone()
+    private void Awake()
     {
-        ++feedNum;
-        if (feedNum == 4)
+        Instance = this;
+    }
+
+    public void FedCheck()
+    {
+        if (fedFox && fedWhale && fedPeguin && fedDeer)
         {
             feedComplete = true;
             if (task1Text != null)
