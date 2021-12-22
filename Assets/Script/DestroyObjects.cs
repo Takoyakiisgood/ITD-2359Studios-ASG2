@@ -25,7 +25,14 @@ public class DestroyObjects : MonoBehaviour
         if (collision.gameObject.tag == "Trash")
         {
             Destroy(collision.gameObject);
-            Day1Manager.Instance.cleanDone();
+            if (GameManager.Instance.dayCount == 1)
+            {
+                Day1Manager.Instance.cleanDone();
+            }
+            else
+            {
+                Day2Manager.Instance.cleanDone();
+            }
         }
     }
 
