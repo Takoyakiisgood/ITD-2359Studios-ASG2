@@ -8,6 +8,7 @@ public class Day1Manager : MonoBehaviour
 {
     public bool feedComplete;
     public bool cleanComplete;
+
     [Header("Check Animal Fed")]
     public bool fedFox;
     public bool fedWhale;
@@ -15,6 +16,7 @@ public class Day1Manager : MonoBehaviour
     public bool fedDeer;
     public int cleanNum;
 
+    [Header("To be Assigned")]
     public TMP_Text task1Text;
     public TMP_Text task2Text;
     public Button NextDayBtn;

@@ -5,19 +5,71 @@ using UnityEngine.UI;
 using TMPro;
 
 public class Day2Manager : MonoBehaviour
-{
-    public bool hasGlove;
+{   
+    [Header("To be Assigned")]
     public TMP_Text task1Text;
     public TMP_Text task2Text;
     public Button examDayBtn;
+    public SkinnedMeshRenderer rightHand;
+    public SkinnedMeshRenderer leftHand;
+    public Material materialToChange;
+
+    [Header("Check Task Done")]
     public bool cleanComplete;
     public bool animalFoundComplete;
+
+    [Header("Check Animal Found")]
+    [SerializeField]
+    private bool foxFound;
+    [SerializeField]
+    private bool deerFound;
+
+    public bool hasGlove;
     public int cleanNum;
     public static Day2Manager Instance;
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    public void setfoxFound() {
+        foxFound = true;
+        animalCaptureCheck();
+    }
+
+    public void setdeerFound()
+    {
+        deerFound = true;
+        animalCaptureCheck();
+    }
+
+    public void checkWornGlove()
+    { 
+        if(hasGlove == false)
+        {
+            //if the player does not have glove on, do something
+            //minus the chance point
+
+            //change the material of the hand to red
+            if (materialToChange != null && rightHand != null && leftHand != null) 
+            {
+                rightHand.material = materialToChange;
+                leftHand.material = materialToChange;
+            }
+        }
+    }
+
+    public void animalCaptureCheck() 
+    {
+        if (foxFound && deerFound)
+        {
+            animalFoundComplete = true;
+            if (task1Text != null)
+            {
+                task1Text.fontStyle = FontStyles.Strikethrough;
+            }
+        }
     }
 
     public void cleanDone()
@@ -33,7 +85,6 @@ public class Day2Manager : MonoBehaviour
         }
     }
 
-    
     public void SetGloves()
     {
         hasGlove = true;

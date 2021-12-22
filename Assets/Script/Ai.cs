@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class DeerAi : MonoBehaviour
+public class Ai : MonoBehaviour
 {
     // Have an Idle, a walking state 
     [Header("To be Assigned")]

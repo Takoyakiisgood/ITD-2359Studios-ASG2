@@ -218,6 +218,61 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &331678344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331678346}
+  - component: {fileID: 331678345}
+  m_Layer: 0
+  m_Name: Day2Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &331678345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331678344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdb76dc323dfae42a30f773e113b158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  task1Text: {fileID: 0}
+  task2Text: {fileID: 0}
+  examDayBtn: {fileID: 0}
+  rightHand: {fileID: 0}
+  leftHand: {fileID: 0}
+  materialToChange: {fileID: 0}
+  cleanComplete: 0
+  animalFoundComplete: 0
+  foxFound: 0
+  deerFound: 0
+  hasGlove: 0
+  cleanNum: 0
+--- !u!4 &331678346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331678344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.50532806, y: 1.039612, z: 0.22544467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560147745
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +702,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1290527023}
         m_TargetAssemblyTypeName: WearGlove, Assembly-CSharp
         m_MethodName: wearGlove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 331678345}
+        m_TargetAssemblyTypeName: Day2Manager, Assembly-CSharp
+        m_MethodName: SetGloves
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
