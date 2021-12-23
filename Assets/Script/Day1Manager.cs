@@ -8,6 +8,8 @@ public class Day1Manager : MonoBehaviour
 {
     public bool feedComplete;
     public bool cleanComplete;
+    [SerializeField]
+    private int Chance = 3;
 
     [Header("Check Animal Fed")]
     public bool fedFox;
@@ -19,12 +21,24 @@ public class Day1Manager : MonoBehaviour
     [Header("To be Assigned")]
     public TMP_Text task1Text;
     public TMP_Text task2Text;
+    public TMP_Text ChanceTxt;
     public Button NextDayBtn;
 
     public static Day1Manager Instance;
     private void Awake()
     {
         Instance = this;
+    }
+
+    public void loseChance()
+    {
+        --Chance;
+        if (Chance == 0)
+        { 
+            //display UI showing you have been fired
+
+            //restart the game
+        }
     }
 
     public void FedCheck()
