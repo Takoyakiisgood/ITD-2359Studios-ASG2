@@ -2967,7 +2967,7 @@ MonoBehaviour:
       - m_Target: {fileID: 5166430976980876298}
         m_TargetAssemblyTypeName: InstantiateAudio, Assembly-CSharp
         m_MethodName: playAudio
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3061,7 +3061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6409b72e36aa9b04ebc4458b5264e7ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioPrefab: {fileID: 3005169015623341767, guid: bef0f7bb374f4f2469dc976e209f3b9c, type: 3}
+  audioPrefabList:
+  - {fileID: 3005169015623341767, guid: bef0f7bb374f4f2469dc976e209f3b9c, type: 3}
 --- !u!1 &5166430977252101305
 GameObject:
   m_ObjectHideFlags: 0

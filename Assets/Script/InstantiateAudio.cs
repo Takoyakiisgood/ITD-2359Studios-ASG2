@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class InstantiateAudio : MonoBehaviour
 {
-    public GameObject audioPrefab;
-    public void playAudio()
+    public GameObject[] audioPrefabList;
+
+    public void playAudio(int num)
     {
-        if (audioPrefab != null)
+        if (audioPrefabList.Length != 0)
         {
-            GameObject audioObj = Instantiate(audioPrefab, transform.position, Quaternion.identity, null);
+            GameObject audioObj = Instantiate(audioPrefabList[num], transform.position, Quaternion.identity, null);
         }
     }
 }

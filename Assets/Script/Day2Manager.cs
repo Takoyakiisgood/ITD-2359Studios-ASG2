@@ -11,7 +11,7 @@ public class Day2Manager : MonoBehaviour
     public TMP_Text task2Text;
     public Text ChanceTxt;
     public Button examDayBtn;
-    
+    public GameObject OuchAudioPrefab;
     public SkinnedMeshRenderer rightHand;
     public SkinnedMeshRenderer leftHand;
     public Material handMat;
@@ -75,6 +75,10 @@ public class Day2Manager : MonoBehaviour
             //change the material of the hand to red
             if (!hurtHand && rightHand != null && leftHand != null) 
             {
+                if (OuchAudioPrefab != null)
+                {
+                    GameObject audioObj = Instantiate(OuchAudioPrefab, transform.position, Quaternion.identity, null);
+                }
                 //play the blinking effect at update
                 hurtHand = true;
                 //wait for 3 seconds to blink color before changing back the colors
