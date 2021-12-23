@@ -9,6 +9,7 @@ public class Day2Manager : MonoBehaviour
     [Header("To be Assigned")]
     public TMP_Text task1Text;
     public TMP_Text task2Text;
+    public TMP_Text ChanceTxt;
     public Button examDayBtn;
     
     public SkinnedMeshRenderer rightHand;
@@ -29,7 +30,8 @@ public class Day2Manager : MonoBehaviour
     private bool foxFound;
     [SerializeField]
     private bool deerFound;
-
+    [SerializeField]
+    private int Chance = 3;
     public bool hasGlove;
     public bool hurtHand;
     public int cleanNum;
@@ -38,6 +40,17 @@ public class Day2Manager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+    }
+
+    public void loseChance()
+    {
+        --Chance;
+        if (Chance == 0)
+        {
+            //display UI showing you have been fired
+
+            //restart the game
+        }
     }
 
     public void setfoxFound() {
@@ -57,7 +70,7 @@ public class Day2Manager : MonoBehaviour
         {
             //if the player does not have glove on, do something
             //minus the chance point
-
+            loseChance();
             //change the material of the hand to red
             if (!hurtHand && rightHand != null && leftHand != null) 
             {

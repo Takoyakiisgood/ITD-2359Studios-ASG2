@@ -49,7 +49,8 @@ public class basket : MonoBehaviour
         {
             //play the animation of the animal walking away
             myanimator.SetTrigger("WrongFood");
-            //reduce the chance the player has
+            //reduce the chance
+            Day1Manager.Instance.loseChance();
         }
     }
     private IEnumerator SetFoodDisappear(GameObject food, int sec)
