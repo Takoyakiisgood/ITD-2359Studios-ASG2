@@ -148,6 +148,7 @@ public class Day2Manager : MonoBehaviour
                 examDayBtn.gameObject.SetActive(true);
             }
             //do the nessary updates on database
+            //get the time taken from Time Manager Instance
         }
     }
 }

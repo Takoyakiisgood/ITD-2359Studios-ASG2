@@ -7,6 +7,7 @@ public class Day2DestroyObjects : MonoBehaviour
 {
     public GameObject dustPan;
     private XRSocketInteractor socket;
+    public GameObject audioPrefab;
     private void Awake()
     {
         socket = dustPan.GetComponent<XRSocketInteractor>();
@@ -23,6 +24,11 @@ public class Day2DestroyObjects : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trash")
         {
+            if (audioPrefab != null)
+            {
+                GameObject audioObj = Instantiate(audioPrefab, transform.position, Quaternion.identity, null);
+            }
+
             //set the socket back to active
             socket.socketActive = true;
             Destroy(collision.gameObject);

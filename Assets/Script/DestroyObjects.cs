@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class DestroyObjects : MonoBehaviour
 {
     public GameObject dustPan;
-
+    public GameObject audioPrefab;
     public void SetSocketActive()
     {
         XRSocketInteractor socket = dustPan.GetComponent<XRSocketInteractor>();
@@ -23,6 +23,11 @@ public class DestroyObjects : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trash")
         {
+            if(audioPrefab != null)
+            {
+                GameObject audioObj = Instantiate(audioPrefab, transform.position, Quaternion.identity, null);
+            }
+            
             Destroy(collision.gameObject);
             Day1Manager.Instance.cleanDone();
         }

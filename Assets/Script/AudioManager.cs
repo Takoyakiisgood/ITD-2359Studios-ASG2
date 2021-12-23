@@ -15,7 +15,6 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-
     public AudioSource sfxSource;
     public static AudioManager Instance;
     private void Awake()

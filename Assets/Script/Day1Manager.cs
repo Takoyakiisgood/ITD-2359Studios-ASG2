@@ -23,6 +23,7 @@ public class Day1Manager : MonoBehaviour
     public TMP_Text task2Text;
     public Text ChanceTxt;
     public Button NextDayBtn;
+    public TimeManager timeManger;
 
     public static Day1Manager Instance;
     private void Awake()
@@ -88,6 +89,7 @@ public class Day1Manager : MonoBehaviour
                 NextDayBtn.gameObject.SetActive(true);
             }
             //do the nessary updates on database
+            //get the time taken from Time Manager Instance
         }
     }
 }
