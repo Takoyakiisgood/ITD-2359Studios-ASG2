@@ -6,16 +6,29 @@ public class basket : MonoBehaviour
 {
     public string AnimalFood;
     public Animator myanimator;
+    [SerializeField]
+    private bool foodInside = false;
+
+    public void SetFoodRemove()
+    {
+        foodInside = false;
+    }
+
+    public void SetFoodInside()
+    {
+        foodInside = true;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log(other.gameObject.tag + " is inside the basket");
         //Check if the Object inside is a food if not do something
-        if (other.gameObject.tag == "Food")
+        if (other.gameObject.tag == "Food" && foodInside)
         {
             CheckFood(other.gameObject);
         }
     }
+
     public void CheckFood(GameObject food)
     {
         if (food.name == AnimalFood)
@@ -45,11 +58,11 @@ public class basket : MonoBehaviour
             //wait for the animation to be completed before setting the food to be gone
             StartCoroutine(SetFoodDisappear(food, 3));
         }
-        else 
+        else
         {
             //play the animation of the animal walking away
             myanimator.SetTrigger("WrongFood");
-            //reduce the chance
+            //minus chance
             Day1Manager.Instance.loseChance();
         }
     }

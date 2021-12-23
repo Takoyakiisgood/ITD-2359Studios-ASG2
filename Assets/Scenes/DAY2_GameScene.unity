@@ -284,7 +284,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2376
+  m_Name: pb_Mesh-38486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -488,7 +488,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2566
+  m_Name: pb_Mesh-38676
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1555,7 +1555,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20380
+  m_Name: pb_Mesh135326
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1719,7 +1719,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19572
+  m_Name: pb_Mesh134518
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2991,7 +2991,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19732
+  m_Name: pb_Mesh134678
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3444,7 +3444,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19364
+  m_Name: pb_Mesh134308
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3825,7 +3825,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2084
+  m_Name: pb_Mesh-38194
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3994,7 +3994,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1328
+  m_Name: pb_Mesh-37404
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4579,7 +4579,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1748
+  m_Name: pb_Mesh-37858
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4821,7 +4821,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1400
+  m_Name: pb_Mesh-37510
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5212,7 +5212,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19522
+  m_Name: pb_Mesh134468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5590,7 +5590,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20184
+  m_Name: pb_Mesh135130
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5754,7 +5754,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1340
+  m_Name: pb_Mesh-37416
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5933,7 +5933,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20130
+  m_Name: pb_Mesh135076
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6097,7 +6097,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1910
+  m_Name: pb_Mesh-38020
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6958,7 +6958,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1942
+  m_Name: pb_Mesh-38052
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7384,7 +7384,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20204
+  m_Name: pb_Mesh135150
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7566,7 +7566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1252
+  m_Name: pb_Mesh-37328
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7724,6 +7724,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1378137383 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8929455633407435069, guid: ef4dd1de6774e56419a74d9aa1d696ed, type: 3}
+  m_PrefabInstance: {fileID: 797388558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1391498272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7816,7 +7827,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19700
+  m_Name: pb_Mesh134646
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7985,7 +7996,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1556
+  m_Name: pb_Mesh-37666
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8176,6 +8187,7 @@ GameObject:
   - component: {fileID: 1550497371}
   - component: {fileID: 1550497370}
   - component: {fileID: 1550497369}
+  - component: {fileID: 1550497374}
   m_Layer: 0
   m_Name: Fox Socket Interactor
   m_TagString: Untagged
@@ -8200,7 +8212,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967264
+    m_Bits: 4294967280
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -8213,22 +8225,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1663051808}
-        m_TargetAssemblyTypeName: Day2Manager, Assembly-CSharp
-        m_MethodName: setfoxFound
+      - m_Target: {fileID: 1550497374}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetAnimalInside
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1550497371}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8239,7 +8239,31 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1550497374}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetAnimalRemoved
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1550497374}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetBackColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8334,6 +8358,22 @@ Transform:
   m_Father: {fileID: 2367935376721365920}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1550497374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550497368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47ec4dc068b7ae4b872323799b38f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalName: Fox
+  AnimalInside: 0
+  color: {r: 1, g: 0, b: 0, a: 0.1764706}
+  colorStart: {r: 0.16470589, g: 1, b: 0, a: 0.1764706}
 --- !u!4 &1566802251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4909627193785698, guid: 8f281d16e094c6a4896e37696e49dea9, type: 3}
@@ -8662,10 +8702,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   task1Text: {fileID: 198603572}
   task2Text: {fileID: 1764776987}
+  ChanceTxt: {fileID: 1378137383}
   examDayBtn: {fileID: 125713510}
   rightHand: {fileID: 235655719}
   leftHand: {fileID: 1596846816}
-  handMat: {fileID: 0}
+  handMat: {fileID: 2100000, guid: 70fcfc865826b8b47b615dd1a588f913, type: 2}
   startColor: {r: 1, g: 0.25882354, b: 0.25882354, a: 0}
   endColor: {r: 1, g: 1, b: 1, a: 0}
   Speed: 2.9
@@ -8673,6 +8714,7 @@ MonoBehaviour:
   animalFoundComplete: 0
   foxFound: 0
   deerFound: 0
+  Chance: 3
   hasGlove: 0
   hurtHand: 0
   cleanNum: 0
@@ -8701,7 +8743,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19634
+  m_Name: pb_Mesh134580
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13580,7 +13622,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1262
+  m_Name: pb_Mesh-37338
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13774,7 +13816,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19746
+  m_Name: pb_Mesh134692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14105,6 +14147,7 @@ GameObject:
   - component: {fileID: 1913097044}
   - component: {fileID: 1913097043}
   - component: {fileID: 1913097042}
+  - component: {fileID: 1913097047}
   m_Layer: 0
   m_Name: Deer Socket Interactor
   m_TagString: Untagged
@@ -14129,7 +14172,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967248
+    m_Bits: 4294967280
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -14142,22 +14185,10 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1663051808}
-        m_TargetAssemblyTypeName: Day2Manager, Assembly-CSharp
-        m_MethodName: setdeerFound
+      - m_Target: {fileID: 1913097047}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetAnimalInside
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1913097044}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14168,7 +14199,31 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1913097047}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetBackColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1913097047}
+        m_TargetAssemblyTypeName: CheckAnimal, Assembly-CSharp
+        m_MethodName: SetAnimalRemoved
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -14263,6 +14318,22 @@ Transform:
   m_Father: {fileID: 2367935376721365920}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913097047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913097041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47ec4dc068b7ae4b872323799b38f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalName: Deer
+  AnimalInside: 0
+  color: {r: 1, g: 0, b: 0, a: 0.1764706}
+  colorStart: {r: 0.16470589, g: 1, b: 0, a: 0.1764706}
 --- !u!4 &1920142875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 413218, guid: 826b6a0b570e8460990010fa615b5a2a, type: 3}
@@ -14355,7 +14426,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20242
+  m_Name: pb_Mesh135188
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34263,7 +34334,7 @@ GameObject:
   - component: {fileID: 1662390172931697002}
   m_Layer: 9
   m_Name: Fox
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53968,7 +54039,7 @@ GameObject:
   - component: {fileID: 240743017}
   m_Layer: 0
   m_Name: Penguin
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54814,7 +54885,7 @@ GameObject:
   - component: {fileID: 3178962428903055568}
   m_Layer: 10
   m_Name: Deer
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56914,7 +56985,7 @@ GameObject:
   - component: {fileID: 1737516413}
   m_Layer: 0
   m_Name: Whale
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
