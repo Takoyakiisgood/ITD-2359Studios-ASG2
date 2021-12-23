@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 32556 MB
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 20255 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+C:/Users/Theng Sun Yu/Documents/Sem 2.2/DDA ITD ASSIGNMENT 2/ITD-2359Studios-ASG2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62747
-Successfully changed project path to: C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
-C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2
+49978
+Successfully changed project path to: C:/Users/Theng Sun Yu/Documents/Sem 2.2/DDA ITD ASSIGNMENT 2/ITD-2359Studios-ASG2
+C:/Users/Theng Sun Yu/Documents/Sem 2.2/DDA ITD ASSIGNMENT 2/ITD-2359Studios-ASG2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.66 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 1.07 ms.
+Refreshing native plugins compatible for Editor in 174.51 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 2.43 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kadzushi/A SCHOOL/NGEE ANN/ASG2_ITD_DDA/2359Studios/ITD-2359Studios-ASG2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Theng Sun Yu/Documents/Sem 2.2/DDA ITD ASSIGNMENT 2/ITD-2359Studios-ASG2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a5a)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.6275
+    VRAM:     10127 MB
+    Driver:   27.20.100.8783
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002754 seconds.
+Registered in 0.004121 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.99 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 134.44 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.631 seconds
+- Completed reload, in  3.395 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1631ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (3396ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (200ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007521 seconds.
+Registered in 0.019395 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.97 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 134.61 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
+- Completed reload, in  2.979 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1519ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (2981ms)
+		BeginReloadAssembly (275ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1289ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2574ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
+			SetupTypeCache (620ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (616ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (1000ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
 Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 129.8 MB.
 System memory in use after: 130.0 MB.
 
 Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 3356.
-Total: 5.904300 ms (FindLiveObjects: 0.585000 ms CreateObjectMapping: 0.251000 ms MarkObjects: 4.797700 ms  DeleteObjects: 0.268800 ms)
+Total: 12.402700 ms (FindLiveObjects: 0.715200 ms CreateObjectMapping: 0.309600 ms MarkObjects: 10.778100 ms  DeleteObjects: 0.596600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,78 +126,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Imports From Esther/certificate.jpg
-  artifactKey: Guid(ddaadefa33f02be478c40b9cd7ddd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.jpg using Guid(ddaadefa33f02be478c40b9cd7ddd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20a118283bf95469d7dd4b3d565c108') in 0.104477 seconds 
-  Import took 0.111962 seconds .
+  path: Assets/Audio/Animation Related/Teleportation
+  artifactKey: Guid(d32503b570b41b645a626886bb22bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Animation Related/Teleportation using Guid(d32503b570b41b645a626886bb22bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d2ba88e50d91a757109c2b2a388e93') in 0.026788 seconds 
+  Import took 0.038580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.768089 seconds.
-  path: Assets/Imports From Esther/certificate.jpg
-  artifactKey: Guid(ddaadefa33f02be478c40b9cd7ddd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.jpg using Guid(ddaadefa33f02be478c40b9cd7ddd0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f39599a2f948543077df5478455d469') in 0.061208 seconds 
-  Import took 0.067247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.584380 seconds.
-  path: Assets/Imports From Esther/certificate.png
-  artifactKey: Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.png using Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eaf077b38a10a226cf0445f6432e8e') in 0.021782 seconds 
-  Import took 0.032202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.334981 seconds.
-  path: Assets/Imports From Esther/certificate.png
-  artifactKey: Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.png using Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4acd7f27ede6698594a59c8fecd44') in 0.018520 seconds 
-  Import took 0.024942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.651592 seconds.
-  path: Assets/Imports From Esther/badge.png
-  artifactKey: Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/badge.png using Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2677718d173116d09c41ce14676fb084') in 0.013315 seconds 
-  Import took 0.022420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Imports From Esther/certificate.png
-  artifactKey: Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.png using Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3e24ae1ede2da03589fc5f33de1c2d') in 0.024452 seconds 
-  Import took 0.031596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.465463 seconds.
-  path: Assets/Imports From Esther/certificate.png
-  artifactKey: Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/certificate.png using Guid(ac7909127f6803941a539b3f2671a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a520a37c4a3d7c946bf07c82fb64fc') in 0.048762 seconds 
-  Import took 0.056890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.922862 seconds.
-  path: Assets/Imports From Esther/badge.png
-  artifactKey: Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/badge.png using Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af06e1da93c13728bab0def8d28aed0') in 0.022307 seconds 
-  Import took 0.030977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 308.048991 seconds.
-  path: Assets/Imports From Esther/badge.png
-  artifactKey: Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports From Esther/badge.png using Guid(12531e8af31650e4c9b2b7297a4aff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd953af31347b506dc0eae4dc724dd9f') in 0.022054 seconds 
-  Import took 0.030362 seconds .
+  Time since last request: 11.953306 seconds.
+  path: Assets/Audio/Animation Related/Teleportation/Teleport.mp3
+  artifactKey: Guid(a77e3fc31df6ba14da4a0b69a045cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Animation Related/Teleportation/Teleport.mp3 using Guid(a77e3fc31df6ba14da4a0b69a045cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ced2a203df3cf04c1a5b7d1f355ea1') in 0.268345 seconds 
+  Import took 0.283099 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
