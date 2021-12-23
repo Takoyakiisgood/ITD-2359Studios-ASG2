@@ -9,7 +9,7 @@ public class Day2Manager : MonoBehaviour
     [Header("To be Assigned")]
     public TMP_Text task1Text;
     public TMP_Text task2Text;
-    public TMP_Text ChanceTxt;
+    public Text ChanceTxt;
     public Button examDayBtn;
     
     public SkinnedMeshRenderer rightHand;
@@ -45,6 +45,7 @@ public class Day2Manager : MonoBehaviour
     public void loseChance()
     {
         --Chance;
+        ChanceTxt.text = Chance.ToString();
         if (Chance == 0)
         {
             //display UI showing you have been fired
