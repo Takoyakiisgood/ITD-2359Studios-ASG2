@@ -12,7 +12,6 @@ public class DestroyObjects : MonoBehaviour
     {
         XRSocketInteractor socket = dustPan.GetComponent<XRSocketInteractor>();
         socket.socketActive = true;
-        Debug.Log(socket.gameObject.name);
     }
     public void ReleaseSocket()
     {
@@ -26,14 +25,6 @@ public class DestroyObjects : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Day1Manager.Instance.cleanDone();
-            if (GameManager.Instance.dayCount == 1)
-            {
-                Day1Manager.Instance.cleanDone();
-            }
-            else
-            {
-                Day2Manager.Instance.cleanDone();
-            }
         }
     }
 

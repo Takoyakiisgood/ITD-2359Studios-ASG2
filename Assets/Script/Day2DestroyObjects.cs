@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-
 public class Day2DestroyObjects : MonoBehaviour
 {
     public GameObject dustPan;
-
+    private XRSocketInteractor socket;
+    private void Awake()
+    {
+        socket = dustPan.GetComponent<XRSocketInteractor>();
+    }
     public void SetSocketActive()
     {
-        XRSocketInteractor socket = dustPan.GetComponent<XRSocketInteractor>();
         socket.socketActive = true;
-        Debug.Log(socket.gameObject.name);
     }
     public void ReleaseSocket()
     {
-        XRSocketInteractor socket = dustPan.GetComponent<XRSocketInteractor>();
-        socket.socketActive = false;
-        
+        socket.socketActive = false;       
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Trash")
         {
+            //set the socket back to active
+            socket.socketActive = true;
             Destroy(collision.gameObject);
             Day2Manager.Instance.cleanDone();
         }
