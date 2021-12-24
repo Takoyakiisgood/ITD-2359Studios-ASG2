@@ -73,7 +73,8 @@ public class Day2Manager : MonoBehaviour
         //play losing sound
         GameObject audioObj = Instantiate(LosingAudio, transform.position, Quaternion.identity, null);
         //show UI
-        LoseUI.gameObject.SetActive(false);
+        LoseUI.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void setfoxFound() {
@@ -180,6 +181,7 @@ public class Day2Manager : MonoBehaviour
             }
             //do the nessary updates on database
             //get the time taken from Time Manager Instance
+            TimeManager.Instance.GetCurrentSec();
         }
     }
 }
