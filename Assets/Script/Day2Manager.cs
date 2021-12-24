@@ -15,6 +15,10 @@ public class Day2Manager : MonoBehaviour
     public SkinnedMeshRenderer rightHand;
     public SkinnedMeshRenderer leftHand;
     public Material handMat;
+    public GameObject LoseUI;
+    public GameObject LosingAudio;
+    public GameObject ReduceChanceAudio;
+
     [Header("Edit the blinking effect")]
     public Color startColor;
     public Color endColor;
@@ -25,7 +29,7 @@ public class Day2Manager : MonoBehaviour
     public bool cleanComplete;
     public bool animalFoundComplete;
 
-    [Header("Check Animal Found")]
+    [Header("Check Animal Found & Clean Num")]
     [SerializeField]
     private bool foxFound;
     [SerializeField]
@@ -46,12 +50,30 @@ public class Day2Manager : MonoBehaviour
     {
         --Chance;
         ChanceTxt.text = Chance.ToString();
+        if (ReduceChanceAudio != null)
+        {
+            GameObject audioObj = Instantiate(ReduceChanceAudio, transform.position, Quaternion.identity, null);
+        }
+
         if (Chance == 0)
         {
             //display UI showing you have been fired
-
+            if (LoseUI != null && LosingAudio != null)
+            {
+                //wait for 1 sec before showing the UI and losing audio
+                StartCoroutine(waitfor(1));
+            }
             //restart the game
         }
+    }
+
+    private IEnumerator waitfor(int sec)
+    {
+        yield return new WaitForSeconds(sec);
+        //play losing sound
+        GameObject audioObj = Instantiate(LosingAudio, transform.position, Quaternion.identity, null);
+        //show UI
+        LoseUI.gameObject.SetActive(false);
     }
 
     public void setfoxFound() {
@@ -131,6 +153,11 @@ public class Day2Manager : MonoBehaviour
         if (examDayBtn != null)
         {
             examDayBtn.gameObject.SetActive(false);
+        }
+
+        if (LoseUI != null)
+        {
+            LoseUI.gameObject.SetActive(false);
         }
     }
 

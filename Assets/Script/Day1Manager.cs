@@ -6,12 +6,13 @@ using TMPro;
 
 public class Day1Manager : MonoBehaviour
 {
+    [Header("Check Task Complete")]
     public bool feedComplete;
     public bool cleanComplete;
     [SerializeField]
     private int Chance = 3;
 
-    [Header("Check Animal Fed")]
+    [Header("Check Animal Fed & Clean Num")]
     public bool fedFox;
     public bool fedWhale;
     public bool fedPeguin;
@@ -23,7 +24,9 @@ public class Day1Manager : MonoBehaviour
     public TMP_Text task2Text;
     public Text ChanceTxt;
     public Button NextDayBtn;
-    public TimeManager timeManger;
+    public GameObject LoseUI;
+    public GameObject LosingAudio;
+    public GameObject ReduceChanceAudio;
 
     public static Day1Manager Instance;
     private void Awake()
@@ -34,13 +37,26 @@ public class Day1Manager : MonoBehaviour
     public void loseChance()
     {
         --Chance;
+
         ChanceTxt.text = Chance.ToString();
         if (Chance == 0)
-        { 
+        {
             //display UI showing you have been fired
-
+            if (LoseUI != null && LosingAudio != null)
+            {
+                //wait for 1 sec before showing the UI and losing audio
+                StartCoroutine(waitfor(1));
+            }
             //restart the game
         }
+    }
+    private IEnumerator waitfor(int sec)
+    {
+        yield return new WaitForSeconds(sec);
+        //play losing sound
+        GameObject audioObj = Instantiate(LosingAudio, transform.position, Quaternion.identity, null);
+        //show UI
+        LoseUI.gameObject.SetActive(false);
     }
 
     public void FedCheck()
@@ -74,6 +90,10 @@ public class Day1Manager : MonoBehaviour
         if (NextDayBtn != null)
         {
             NextDayBtn.gameObject.SetActive(false);
+        }
+        if (LoseUI != null)
+        {
+            LoseUI.gameObject.SetActive(false);
         }
     }
 

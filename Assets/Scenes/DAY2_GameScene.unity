@@ -4757,6 +4757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5312b5693ffe08240a7c68622ba0d6d2, type: 3}
+--- !u!1 &895480847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3628363432834163540, guid: 5312b5693ffe08240a7c68622ba0d6d2, type: 3}
+  m_PrefabInstance: {fileID: 895480846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &897830245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 417506, guid: 8f76e4de37339cc4e95feb6a8e054111, type: 3}
@@ -7073,18 +7078,13 @@ PrefabInstance:
     - target: {fileID: 3670661090781915408, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
       propertyPath: transition
       value: 
-      objectReference: {fileID: 1221486514}
+      objectReference: {fileID: 0}
     - target: {fileID: 3670661090781915408, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
       propertyPath: audioTransition
       value: 
       objectReference: {fileID: 1761281937}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
---- !u!95 &1221486514 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 88169455480585921, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
-  m_PrefabInstance: {fileID: 1221486513}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1221486515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 88169455721194764, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
@@ -8732,6 +8732,9 @@ MonoBehaviour:
   rightHand: {fileID: 235655719}
   leftHand: {fileID: 1596846816}
   handMat: {fileID: 2100000, guid: 70fcfc865826b8b47b615dd1a588f913, type: 2}
+  LoseUI: {fileID: 895480847}
+  LosingAudio: {fileID: 0}
+  ReduceChanceAudio: {fileID: 0}
   startColor: {r: 1, g: 0.25882354, b: 0.25882354, a: 0}
   endColor: {r: 1, g: 1, b: 1, a: 0}
   Speed: 2.9

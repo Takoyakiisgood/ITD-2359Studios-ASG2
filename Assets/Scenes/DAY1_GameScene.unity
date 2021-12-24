@@ -729,7 +729,9 @@ MonoBehaviour:
   task2Text: {fileID: 1764776987}
   ChanceTxt: {fileID: 470964454172700807}
   NextDayBtn: {fileID: 125713510}
-  timeManger: {fileID: 0}
+  LoseUI: {fileID: 3628363430999584980}
+  LosingAudio: {fileID: 0}
+  ReduceChanceAudio: {fileID: 0}
 --- !u!4 &143592632
 Transform:
   m_ObjectHideFlags: 0
@@ -56490,6 +56492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5312b5693ffe08240a7c68622ba0d6d2, type: 3}
+--- !u!1 &3628363430999584980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3628363432834163540, guid: 5312b5693ffe08240a7c68622ba0d6d2, type: 3}
+  m_PrefabInstance: {fileID: 3628363430999584979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3641366991438835767
 Transform:
   m_ObjectHideFlags: 0
