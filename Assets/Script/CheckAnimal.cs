@@ -6,6 +6,7 @@ public class CheckAnimal : MonoBehaviour
 {
     public string AnimalName;
     private Renderer render;
+    private bool CorrectAnimal;
     [Header("Color for Wrong Animal")]
     public Color color;
     [Header("Color for Start")]
@@ -21,13 +22,11 @@ public class CheckAnimal : MonoBehaviour
         render.material.color = colorStart;
     }
 
-
-    private void OnTriggerEnter(Collider other)
+    public void checkAnimal()
     {
-        Debug.Log(other.name);
-        //Check if the collidered object is the same as the AnimalName
-        if (other.name == AnimalName)
+        if (CorrectAnimal)
         {
+            this.render.enabled = false;
             if (AnimalName == "Fox")
             {
                 Day2Manager.Instance.setfoxFound();
@@ -37,15 +36,27 @@ public class CheckAnimal : MonoBehaviour
             {
                 Day2Manager.Instance.setdeerFound();
             }
-
-            this.render.enabled = false;
         }
-        else
+        else 
         {
             //set the render of the trigger to red
             render.material.color = color;
             //minus chance
             Day2Manager.Instance.loseChance();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.name);
+        //Check if the collidered object is the same as the AnimalName
+        if (other.name == AnimalName)
+        {
+            CorrectAnimal = true;
+        }
+        else
+        {
+            CorrectAnimal = false;
         }
 
     }
