@@ -1982,6 +1982,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7319309812859813781, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
   m_PrefabInstance: {fileID: 7319309812180222783}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &458276295 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7319309812859813777, guid: d2c60ed4ab26e3341b5803b844384f15, type: 3}
+  m_PrefabInstance: {fileID: 7319309812180222783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &458276296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,7 +1994,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458276291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
@@ -3745,6 +3750,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 597113593236826451, guid: ef4dd1de6774e56419a74d9aa1d696ed, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 458276295}
+    - target: {fileID: 597113593236826451, guid: ef4dd1de6774e56419a74d9aa1d696ed, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 597113593236826451, guid: ef4dd1de6774e56419a74d9aa1d696ed, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1876694516609740421, guid: ef4dd1de6774e56419a74d9aa1d696ed, type: 3}
       propertyPath: m_Text
       value: DAY 2
@@ -7042,12 +7059,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 88169455480585920, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 88169455480585921, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a710fc2c7f57e14cac56f2c75bf58f7, type: 2}
+    - target: {fileID: 88169455480585948, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 458276295}
+    - target: {fileID: 88169455480585948, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 88169455480585948, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 88169455721194764, guid: a6a52b7ee85531646ab2318f7a2d4793, type: 3}
       propertyPath: m_Name
       value: GameManger
@@ -58841,6 +58870,10 @@ PrefabInstance:
     - target: {fileID: 2986514346185919322, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986514346185919322, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b03b0aab0a2867846a941630c5d7b04e, type: 3}
