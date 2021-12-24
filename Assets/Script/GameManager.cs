@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private float transitionTime = 1f;
 
+    [SerializeField]
+    private int index;
+
     public static GameManager Instance;
 
     public int dayCount;
@@ -51,15 +54,20 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         //get the current Day progress and use if else statement to switch to different scene
-        StartCoroutine(LoadLevel(3));
+        //StartCoroutine(LoadLevel(3));
     }
 
     public void MainMenu()
     {
-        StartCoroutine(LoadLevel(2));
+        StartCoroutine(LoadLevel(0));
     }
 
-    public IEnumerator LoadLevel(int levelindex)
+    public void UpdateScene()
+    {
+        StartCoroutine(LoadLevel(index));
+    }
+
+    IEnumerator LoadLevel(int levelindex)
     {
         //play BGM music
         if (audioTransition != null)
