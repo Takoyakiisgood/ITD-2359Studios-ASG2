@@ -940,7 +940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3060676247930540975, guid: 1bc893d426e8e7c4aa03018f5ff47356, type: 3}
       propertyPath: m_Volume
-      value: 0.23
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 3060676247930540975, guid: 1bc893d426e8e7c4aa03018f5ff47356, type: 3}
       propertyPath: m_audioClip
@@ -4528,7 +4528,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 702331148}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: playSFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: a77e3fc31df6ba14da4a0b69a045cc86, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
