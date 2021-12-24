@@ -20,7 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -4.415429, y: -6.27, z: 0.81007004}
+        value: {x: -4.415429, y: -2.7486243, z: 0.81007004}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -112,7 +112,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -6.27
+        value: -2.7486243
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -166,4 +166,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: playSFX
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 55639c70d998dbe4c97c501a51b2cb2e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
